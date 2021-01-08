@@ -15,7 +15,7 @@ Welcome to your aptitude test
   <a href="#information_source-how-to-use">How test</a>&nbsp;&nbsp;
 </p>
 
-## Test Objective
+## :wrench: Test Objective
 
 <p>
 This test aims to measure the candidate's technical capabilities and find out if they are in accordance with the developer profile that Mochi is looking for.
@@ -58,7 +58,7 @@ $ npm run dev
 
 ```
 
-## How To Test
+## :hammer_and_wrench: How To Test
 
 The project is already configured with the necessary resources to carry out the tests:
 

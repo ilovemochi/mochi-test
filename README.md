@@ -9,13 +9,12 @@
 <h4 align="center">
 Welcome to your aptitude test
 </h4>
-<p align="center">
-<p align="center">
+< align="center">
 &nbsp;&nbsp;
   <a href="#test-objective">Test objective</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-use">How use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How test</a>&nbsp;&nbsp;
-</p>
+</>
 
 ## Test Objective
 
@@ -28,9 +27,25 @@ In the project in question there is a component in mochi-test\components\shared\
 
 <br>
 
-## How To Use
+## :rocket: Technologies
+
+This project was developed with the following technologies:
+
+- [ReactJS](https://reactjs.org/)
+- [Ramda](https://ramdajs.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Redux](https://redux.js.org/)
+- [Redux-Saga](https://redux-saga.js.org/)
+- [React Router v4](https://github.com/ReactTraining/react-router)
+- [styled-components](https://www.styled-components.com/)
+- [React-Icons](https://react-icons.netlify.com/)
+- [VS Code][vc] and [ESLint][vceslint]
+
+## :warning: Prerequisites
 
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v14][nodejs] or higher installed on your computer. From your command line:
+
+## How To Use
 
 ```bash
 # Clone this repository

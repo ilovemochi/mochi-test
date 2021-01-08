@@ -39,7 +39,7 @@ This project was developed with the following technologies:
 - [React-Icons](https://react-icons.netlify.com/)
 - [VS Code][vc] and [ESLint][vceslint]
 
-To make a commit must be used a following rule:
+# To make a commit must be used a following rule:
 
 `git commit -m "*type*: commit-message"`
 

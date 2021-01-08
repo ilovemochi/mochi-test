@@ -40,6 +40,13 @@ This project was developed with the following technologies:
 - [React-Icons](https://react-icons.netlify.com/)
 - [VS Code][vc] and [ESLint][vceslint]
 
+To make a commit must be used a following rule:
+
+`git commit -m "*type*: commit-message"`
+
+- Where type is: [ `build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `revert`, `style`, `test` ]
+- And commit-message must be written in lower-case.
+
 ## :warning: Prerequisites
 
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v14][nodejs] or higher installed on your computer. From your command line:

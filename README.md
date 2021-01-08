@@ -30,12 +30,11 @@ In this project there is a component in **mochi-test\components\shared\form\sear
 
 This project was developed with the following technologies:
 
-- [ReactJS](https://reactjs.org/)
+- [Next](https://reactjs.org/)
 - [Ramda](https://ramdajs.com/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Redux](https://redux.js.org/)
 - [Redux-Saga](https://redux-saga.js.org/)
-- [React Router v4](https://github.com/ReactTraining/react-router)
 - [styled-components](https://www.styled-components.com/)
 - [React-Icons](https://react-icons.netlify.com/)
 - [VS Code][vc] and [ESLint][vceslint]

@@ -8,12 +8,12 @@
 <h4 align="center">
 Welcome to your aptitude test
 </h4>
-< align="center">
+<p align="center">
 &nbsp;&nbsp;
   <a href="#test-objective">Test objective</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-use">How use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How test</a>&nbsp;&nbsp;
-</>
+</p>
 
 ## Test Objective
 

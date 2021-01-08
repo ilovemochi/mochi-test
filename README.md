@@ -44,7 +44,7 @@ This project was developed with the following technologies:
 
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v14][nodejs] or higher installed on your computer. From your command line:
 
-## How To Use
+## :information_source: How To Use
 
 ```bash
 # Clone this repository

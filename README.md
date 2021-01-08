@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="logo Mochi" src="logo.png" />
+    <img alt="logo Mochi" src="logo.PNG" />
     <br>
     <br>
     Mochi optitude test

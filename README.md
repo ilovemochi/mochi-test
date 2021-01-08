@@ -99,9 +99,9 @@ This project was developed with the following technologies:
 
 ## :warning: Prerequisites
 
-in order to use google maps you will need one that you will have to generate on google maps. then it will add to the .env file with key name **NEXT_PUBLIC_OAUTH_API_KEY =my-google-key**
+In order to use google maps you will need one that you will have to generate on google maps. then it will add to the .env file with key name **NEXT_PUBLIC_OAUTH_API_KEY =my-google-key**
 
-to download some private project libraries you will need to add the **44d1bfd19a51ccf8070bd5d281fce8f1b9c6c3b9** token to the .npmrc file.
+To download some private project libraries you will need to add the **44d1bfd19a51ccf8070bd5d281fce8f1b9c6c3b9** token to the .npmrc file.
 
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v14][nodejs] or higher installed on your computer. From your command line:
 

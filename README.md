@@ -47,6 +47,57 @@ To make a commit must be used a following rule:
 - Where type is: [ `build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `revert`, `style`, `test` ]
 - And commit-message must be written in lower-case.
 
+## Coding Conventions
+
+- Interfaces for React Components have to be named (ComponentName)Props
+  - e.g - Component `const App = ({text}) => <div>{text}</div>`
+  - e.g - Interface `interface AppProps { text: string }`
+- All other Interfaces should be CamelCase version of the name of the function or object
+- Only add the prefix I if there is no other Choice
+  - e.g - Function `addStyles() => {}`
+  - e.g - Interface `interface AddStyles {}`
+- Do not use the type any, opt for unknown.
+- Limit the use of classes but instead opt for pure single purpose functions.
+- Rely on composability to deal with complexity
+- Prefer Async/Await syntax over .chain with then.catch
+- Separation of concerns in React
+  - Defer logic to hooks and HOCs
+  - Defer async logic to middlewares such as redux-saga
+  - Global state should be stored in redux
+  - Page state should be stored in a context API
+  - Local state should be stored in component
+  - Keep components as simple as possible so they can be more modular
+- Rely on utility functions by ramda for immutability, composability and clarity
+
+  ```ts
+  // BAD PRACTICE
+  // Mutates the object
+  const obj = { removeMe: '😭', keepMe: '😊' };
+  obj.removeMe = null;
+  delete obj.removeMe;
+  // obj === { keepMe: '😊' }
+
+  // BETTER BUT NOT IDEAL
+  // Immutable but not declarative
+  // Pollutes the execution context with variable key
+  const objTwo = { removeMe: '😭', keepMe: '😊' };
+  const { removeMe, ...updatedObj } = objTwo;
+  // objTwo === { removeMe: '😭', keepMe: '😊' }
+  // updatedObj = { keepMe: '😊' }
+
+  // IDEAL
+  // Immutable and declarative
+  const objThree = { removeMe: '😭', keepMe: '😊' };
+  const removeKey = R.omit(['removeMe']);
+  const updatedObjTwo = removeKey(objThree);
+  // objThree === { removeMe: '😭', keepMe: '😊' }
+  // updatedObjTwo = { keepMe: '😊' }
+  ```
+
+- Immutability
+- Pure single purpose functions
+- Composability
+
 ## :warning: Prerequisites
 
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v14][nodejs] or higher installed on your computer. From your command line:
@@ -80,7 +131,7 @@ $ npm test
 $ npm test components/shared/form/search-location-input/file-name.test.tsx
 ```
 
-Made by **I** :hearts: **Mochi**
+## All Rights Reserved for Mochi Noir, LDA
 
 [nodejs]: https://nodejs.org/
 [vc]: https://code.visualstudio.com/

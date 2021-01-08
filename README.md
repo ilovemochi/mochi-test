@@ -73,7 +73,7 @@ $ npm test
 $ npm test components/shared/form/search-location-input/file-name.test.tsx
 ```
 
-Made by Mochi
+Made by I:hearts:Mochi
 
 [nodejs]: https://nodejs.org/
 [vc]: https://code.visualstudio.com/

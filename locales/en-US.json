@@ -1,0 +1,837 @@
+{
+  "common": {
+    "language": {
+      "title": "Language",
+      "english": "English",
+      "portuguese": "Portuguese"
+    },
+    "ariaLabel": {
+      "prevItems": "Previous items",
+      "nextItems": "Next items",
+      "addItem": "add item",
+      "removeItem": "remove item"
+    },
+    "span": {
+      "product": "Product",
+      "essentials": "Essentials",
+      "restaurants": "Restaurants",
+      "new": "New",
+      "hi": "Hi {{ name }}",
+      "storeStatus": {
+        "one": "open",
+        "other": "closed"
+      },
+      "welcome": "Welcome",
+      "statusUntil": "until {{ hour }}h"
+    },
+    "field": {
+      "name": {
+        "label": "Name",
+        "title": "Your full name",
+        "required": "Name is a required field",
+        "min": "Name has to be longer",
+        "max": "Nome tem que ser mais curto",
+        "type": "Name has to be shorter",
+        "advice": "Name of up to 40 characters"
+      },
+      "email": {
+        "title": "Your email",
+        "label": "Email",
+        "required": "E-mail is a required field",
+        "email": "You must enter an email in this field",
+        "type": "E-mail must contain characters",
+        "advice": "Email will be used for login"
+      },
+      "birthDate": {
+        "title": "Your date of birth",
+        "label": "Date of birth",
+        "max": "You must be over 12 years old",
+        "min": "Cannot be over 100 years old",
+        "required": "You must share your date of birth",
+        "type": "Date of birth must be a date",
+        "advice": "Entire date"
+      },
+      "password": {
+        "title": "Your password",
+        "label": "Password",
+        "required": "Password is a required field",
+        "match": "6 characters, 1 number 1 uppercase letter",
+        "type": "Password must contain characters",
+        "advice": "Use a strong password"
+      },
+      "passwordConfirmation": {
+        "title": "Confirmation of your password",
+        "label": "Confirm password",
+        "required": "Password confirmation is a required field",
+        "type": "Must be equal to password",
+        "match": "Passwords must match"
+      },
+      "zip": {
+        "title": "Your Zip code",
+        "label": "Zip Code",
+        "required": "Zip Code is a required field",
+        "type": "Zip Code must contain characters",
+        "advice": "Use the Zip code of your address"
+      },
+      "phone": {
+        "title": "Your phone number",
+        "label": "Phone number",
+        "shortLabel": "Phone",
+        "required": "Phone is a required field",
+        "type": "Phone must contain characters",
+        "advice": "Enter the area code"
+      },
+      "whatsApp": {
+        "title": "Your WhatsApp",
+        "label": "WhatsApp",
+        "type": "WhatsApp must contain characters",
+        "advice": "Enter the area code"
+      },
+      "gender": {
+        "title": "Your gender",
+        "label": "Gender",
+        "match": "Gender must be male, female or other",
+        "type": "Gender must contain characters",
+        "advice": "Choose your gender"
+      },
+      "street": {
+        "title": "Your street",
+        "label": "Street",
+        "min": "Street has to be longer",
+        "required": "Street is a required field",
+        "type": "Street must contain characters",
+        "advice": "This will be your address",
+        "match": "Street must belong to selected Country"
+      },
+      "city": {
+        "title": "Your city",
+        "label": "City",
+        "required": "City is a required field",
+        "type": "City must contain characters",
+        "advice": "Current city",
+        "match": "City must belong to selected Country"
+      },
+      "country": {
+        "title": "Your country",
+        "label": "Country",
+        "required": "Country is a required field",
+        "type": "Country must contain characters",
+        "advice": "Current country"
+      }
+    },
+    "options": {
+      "gender": {
+        "default": "Select your gender",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "city": {
+        "default": "Select your city",
+        "lisbon": "Lisbon",
+        "luanda": "Luanda"
+      },
+      "country": {
+        "default": "Select your country",
+        "angola": "Angola",
+        "portugal": "Portugal"
+      },
+      "PostPaid": {
+        "default": "Type of payment",
+        "cash": "Cash",
+        "tpa": "Terminal of Payment(TPA)"
+      }
+    },
+    "button": {
+      "backToOptions": "Back to options",
+      "search": "Search",
+      "back": "Back",
+      "prev": "Previous",
+      "follow": "Following",
+      "next": "Next",
+      "done": "Done",
+      "send": "Send",
+      "continue": "Continue",
+      "seeMore": "View more",
+      "seeAll": "See all",
+      "buy": "Buy {{ money }}",
+      "buyNow": "Buy now",
+      "signup": "Sign up",
+      "login": "Log in",
+      "logout": "Log out",
+      "yes": "Yes",
+      "no": "No",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "error": {
+      "title": "Error",
+      "404": {
+        "code": "404",
+        "title": "Not Found",
+        "message": "We didn't found what you are looking for"
+      },
+      "500": {
+        "code": "500",
+        "title": "No exists",
+        "message": "There is nothing to display"
+      },
+      "1000": {
+        "code": "1000",
+        "title": "Unknown Error",
+        "message": "Something wen't wrong! :("
+      },
+      "1001": {
+        "code": "1001",
+        "title": "Failed to load the page",
+        "message": "There was a problem loading the page!"
+      },
+      "1002": {
+        "code": "1001",
+        "title": "Empty cart",
+        "message": "There must be products in the cart"
+      },
+      "1003": {
+        "code": "1003",
+        "title": "Not logged",
+        "message": "You are not Logged in, login please"
+      },
+      "1004": {
+        "code": "1004",
+        "title": "Doesn't exist",
+        "message": "This page doesn't exist"
+      },
+      "1005": {
+        "code": "1005",
+        "title": "No orders",
+        "message": "We didn't find the order"
+      },
+      "1006": {
+        "code": "1006",
+        "title": "Problems",
+        "message": "There was a problem fetching the orders"
+      },
+      "1007": {
+        "code": "1007",
+        "title": "Unavailable",
+        "message": "Error! Product Unavailable"
+      },
+      "1010": {
+        "code": "1010",
+        "title": "No Token",
+        "message": "Token is missing or invalid"
+      },
+      "1011": {
+        "code": "1011",
+        "title": "Logged in",
+        "message": "Please log off to access this page"
+      }
+    },
+    "operation": {
+      "10100": {
+        "code": "10100",
+        "message": "Reset password token has expired or missing"
+      },
+      "10101": {
+        "code": "10101",
+        "message": "Your google account is invalid"
+      },
+      "10102": {
+        "code": "10102",
+        "message": "Your email or password is incorrect"
+      },
+      "10103": {
+        "code": "10103",
+        "message": "The store is closed"
+      },
+      "10104": {
+        "code": "10104",
+        "message": "The delivery fee is incorrect"
+      },
+      "10105": {
+        "code": "10105",
+        "message": "This store does not support"
+      },
+      "10106": {
+        "code": "10106",
+        "message": "It is not possible to make this delivery, your address is outside the delivery zone"
+      },
+      "10107": {
+        "code": "10107",
+        "message": "There is no order with such id"
+      },
+      "10108": {
+        "code": "10108",
+        "message": "You must provide your location"
+      },
+      "10109": {
+        "code": "10109",
+        "message": "There are no Mochi Night stores close to your location"
+      },
+      "10110": {
+        "code": "10110",
+        "message": "You must login to perform this operation"
+      },
+      "10111": {
+        "code": "10111",
+        "message": "Cant find {{ value }} on this server!"
+      },
+      "10112": {
+        "code": "10112",
+        "message": "Store not found"
+      },
+      "10113": {
+        "code": "10113",
+        "message": "You must be an admin to access this endpoint"
+      },
+      "10114": {
+        "code": "10114",
+        "message": "An error occurred: stripe customer has been deleted"
+      },
+      "10115": {
+        "code": "10115",
+        "message": "Wrong payment method"
+      },
+      "10117": {
+        "code": "10117",
+        "message": "An error occurred: cart total cost is incorrect"
+      },
+      "10118": {
+        "code": "10118",
+        "message": "Something went wrong"
+      },
+      "10119": {
+        "code": "10119",
+        "message": "Invalid input data"
+      },
+      "10120": {
+        "code": "10120",
+        "message": "Duplicate field value, {{ value }}, Please use another value!"
+      },
+      "10121": {
+        "code": "10121",
+        "message": "This user does not have a stripe id"
+      },
+      "10122": {
+        "code": "10122",
+        "message": "An error occurred: {{ value }}"
+      },
+      "10123": {
+        "code": "10123",
+        "message": "Email Verification Token has expired"
+      },
+      "10124": {
+        "code": "10124",
+        "message": "You need to be logged to verify your email"
+      },
+      "10125": {
+        "code": "10125",
+        "message": "Your current password is incorrect"
+      },
+      "10126": {
+        "code": "10126",
+        "message": "Your password confirmation and new password do not match"
+      },
+      "10127": {
+        "code": "10127",
+        "message": "Your phone number is incorrect"
+      },
+      "10131": {
+        "code": "10131",
+        "message": "We are unable to find the contact you provided."
+      },
+      "10132": {
+        "code": "10132",
+        "message": "The contact provided is invalid."
+      },
+      "10133": {
+        "code": "10133",
+        "message": "Invalid email."
+      },
+      "11100": {
+        "code": "11100",
+        "message": "We can´t delivery to your location"
+      },
+      "11200": {
+        "code": "11200",
+        "message": "Welcome back!"
+      },
+      "11201": {
+        "code": "11201",
+        "message": "Successfully signed out"
+      },
+      "11202": {
+        "code": "11202",
+        "message": "Successfully onboarded"
+      },
+      "11203": {
+        "code": "11203",
+        "message": "Your information has been updated!"
+      },
+      "11204": {
+        "code": "11204",
+        "message": "We sent a email to your account, please check it"
+      },
+      "11205": {
+        "code": "11205",
+        "message": "Your password was succesfully reseted!"
+      },
+      "11206": {
+        "code": "11206",
+        "message": "Your order was successful"
+      },
+      "11207": {
+        "code": "11207",
+        "message": "Your order information was added successfully"
+      }
+    }
+  },
+  "oldNavBar": {
+    "faq": "FAQ",
+    "account": "Account",
+    "contacts": "Contact us"
+  },
+  "navBar": {
+    "home": "Home",
+    "store": "Store",
+    "orders": "Orders",
+    "restaurants": "Restaurants",
+    "essentials": "Essentials",
+    "supermarkets": "Supermarkets",
+    "cart": {
+      "title": "Cart",
+      "aria": {
+        "label": "Cart icon",
+        "description": {
+          "one": "Open cart",
+          "other": "Close cart"
+        }
+      },
+      "status": {
+        "one": "You have {{ number }} item on cart",
+        "other": "You have {{ number }} items on cart"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "aria": {
+        "label": "Caret down icon",
+        "description": {
+          "one": "Open dropdown menu",
+          "other": "Close dropdown menu"
+        }
+      }
+    },
+    "account": {
+      "title": "Account",
+      "aria": {
+        "label": "Account icon",
+        "description": {
+          "one": "Open account",
+          "other": "Close account"
+        }
+      },
+      "status": {
+        "one": "Your profile require update",
+        "other": "Your profile require updates"
+      }
+    },
+    "ordersInProgress": {
+      "title": {
+        "one": "Order in progress",
+        "other": "Orders in progress"
+      },
+      "aria": {
+        "label": "Orders icon",
+        "description": {
+          "one": "Open orders in progress",
+          "other": "Close orders in progress"
+        }
+      },
+      "status": {
+        "one": "You have orders in progress",
+        "other": "You have no orders in progress."
+      },
+      "noOrders": "You have no orders in progress."
+    }
+  },
+  "footer": {
+    "faq": "FAQ",
+    "contacts": "Contact us",
+    "privacy": "Privacy & Cookies",
+    "terms": "Terms and conditions",
+    "accessibility": "Accessibility",
+    "copyright": "© 2020 Mochi Noir Lda"
+  },
+  "cart": {
+    "name": "Cart",
+    "title": "{{ store }} - Your cart",
+    "delete": "Delete"
+  },
+  "authModal": {
+    "title": "Welcome back!",
+    "headerMessage": "Log in to have access to our services.",
+    "footerMessage": "Click “Sign in” to agree to Mochi's Terms of Service and acknowledge that Mochi's Privacy Policy applies to you.",
+    "button": {
+      "google": "Log in with Google",
+      "email": "Log in with Email",
+      "recoverPass": "Recover your Password"
+    },
+    "navOptions": {
+      "signup": {
+        "description": "I do not have an account",
+        "link": "Sign in"
+      },
+      "login": {
+        "description": "I already have an account",
+        "link": "Log in"
+      },
+      "mainSignup": {
+        "description": "No account?",
+        "link": "Create one"
+      },
+      "recoverPassword": {
+        "description": "I lost my password",
+        "link": "Recover"
+      }
+    }
+  },
+  "ageGuard": {
+    "label": "A modal to verify the age of the user"
+  },
+  "landingPage": {
+    "pageTitle": "Welcome to Mochi",
+    "header": {
+      "intro": "Tell us what you want that we deliver to you!",
+      "plainText": "Food, drinks, groceries and many more products available for delivery and pick up in Lisbon and Luanda",
+      "enjoy": {
+        "title": "We bring the fun to you!",
+        "button": "I want to have fun"
+      }
+    },
+    "addressInput": {
+      "placeholder": "Current Location"
+    },
+    "mainContent": {
+      "save": {
+        "intro": "Save big on every order. Join our service of infinite deliveries.",
+        "description": "Infinite deliveries with a monthly fee. Reduced delivery fee on any order. Try this option and cancel anytime.",
+        "button": "Try infinite deliveries"
+      },
+      "orders": {
+        "intro": "Order from your favorite stores.",
+        "description": "Whatever you want, we get it. Order your delivery with your friends and control the delivery route in real time.",
+        "button": "Try infinite deliveries"
+      },
+      "deliver": {
+        "intro": "We deliver drinks, food and a lot more.",
+        "description": "Need another charger for your device? Kitchen staples? Party supplies for your friends and you? We’ve everything you need available for delivery within an hour.",
+        "button": "Try infinite deliveries"
+      },
+      "start": {
+        "title": "Ready to order?",
+        "description": "Browse local restaurants and stores for delivery by entering your address below."
+      }
+    }
+  },
+  "contactsPage": {
+    "pageTitle": "Contacts",
+    "main": {
+      "title": "Contact us how",
+      "client": {
+        "title": "Client",
+        "description": "Dear customer if you are unhappy with our services, or customer service, feel free to share with us what went wrong so that we can solve the problem and improve your experience with Mochi."
+      },
+      "store": {
+        "title": "Store",
+        "description": "Stores that want to partner with our company, just get in touch with us to start discussing a possible partnership."
+      },
+      "candidate": {
+        "title": "Candidate",
+        "description": "Candidates who want to be part of the Mochi team, sign up now and we will analyze your resume with great pleasure and satisfaction."
+      }
+    }
+  },
+  "faqPage": {
+    "pageTitle": "FAQ",
+    "main": {
+      "title": "Frequently Asked Questions",
+      "whoWeAre": {
+        "question": "Who we are?",
+        "answer": "Founded in 2019, Mochi is a software company focused on helping small and medium businesses to sell their products and services on the internet through our online marketplace. We are a team of young entrepreneurs and programmers specialized in node.js, committed to create an online markeplace for  e-commerce."
+      },
+      "marketplace": {
+        "question": "What Mochi Marketplace will be?",
+        "answer": "Mochi's marketplace will be a website where customers can order services and products of small and medium-sized companies from their home. The Mochi marketplace will also support sale of p2p products and services."
+      },
+      "organized": {
+        "question": "How will Mochi marketplace organized?",
+        "answer": "Our marketplace will be organized by Mochi Essentials, independent stores and restaurants."
+      },
+      "services": {
+        "question": "What services does Mochi Essentials offer?",
+        "answer": "Mochi Essentials offers convenience products sold by the closest local supermarket from our customers. This service has a fixed delivery fee and a delivery time of less than 30 minutes."
+      },
+      "restaurant": {
+        "question": "Which Restaurants our marketplace has?",
+        "answer": "You can find in our marketplace many  restaurants. The delivery fee and area depends of the restaurants decision."
+      },
+      "delivery": {
+        "question": "Where do we deliver?",
+        "answer": {
+          "ao": "We deliver in Lisbon and Luanda. Check out if there is any store close to you",
+          "pt": "We deliver in Lisbon and Luanda. Check out if there is any store close to you "
+        }
+      },
+      "cancellation": {
+        "question": "Cancellations?",
+        "answer": "After 1 minute of being requested, we no longer accept cancellations."
+      },
+      "payment": {
+        "question": "Payment options?",
+        "answer": {
+          "ao": "Type of payment varies according with country and store.",
+          "pt": "Type of payment varies according with country and store."
+        }
+      },
+      "payWhen": {
+        "question": "When should payments be made?",
+        "answer": {
+          "ao": "Time of payment varies according with the country and store.",
+          "pt": "Time of payment varies according with the country and store."
+        }
+      },
+      "whereOperate": {
+        "question": "Where do we operate?",
+        "answer": "Our company operates remotely from Lisbon and Luanda."
+      },
+      "stage": {
+        "question": "What stage are we in?",
+        "answer": "Our company is at the start-up phase and it is self-financed by its founders."
+      },
+      "employees": {
+        "question": "What kind of employees are we interested in?",
+        "answer": "Our company is interested in collaborating with creative, pragmatic and passionate professionals in what they do."
+      },
+      "values": {
+        "question": "What are our values?",
+        "answer": "Our values ​​are respect, radical transparency at work, friendship and passion for what we love."
+      },
+      "needs": {
+        "question": "What we need?",
+        "answer": "Mochi needs investors interested in financing our project and who believe in our dreams."
+      },
+      "customers": {
+        "question": "Who are our customers?",
+        "answer": "Companies interested in developing their business through e-commerce by making part of our online marketplace."
+      }
+    }
+  },
+  "signInPage": {
+    "pageTitle": "Sign in",
+    "main": {
+      "title": "Sign in with email",
+      "headerText": "Enter the credentials of your account associated with Mochi, e-mail and password."
+    }
+  },
+  "signupPage": {
+    "pageTitle": "Sign up",
+    "board": {
+      "personal": "Create Personal Data",
+      "contacts": "Create Contacts",
+      "address": "Create Address",
+      "security": "Security"
+    }
+  },
+  "onBoardingPage": {
+    "pageTitle": "OnBoarding",
+    "board": {
+      "personal": "Complete Personal Data",
+      "contacts": "Complete Contacts",
+      "address": "Complete Address"
+    }
+  },
+  "recoverPasswordPage": {
+    "pageTitle": "Recover Password",
+    "main": {
+      "title": "Recover Password",
+      "headerText": "Enter the email associated with your Mochi account. Then you will receive an email with the link to recover your password."
+    }
+  },
+  "newPasswordPage": {
+    "pageTitle": "New Password",
+    "main": {
+      "title": "New Password",
+      "headerText": {
+        "main": "You requested password recovery and were reset to that page.",
+        "one": " Enter and confirm your new password",
+        "other": " But, unfortunately your token is invalid or has expired, please request a new recovery."
+      }
+    }
+  },
+  "settingsPage": {
+    "pageTitle": "Settings",
+    "menu": {
+      "title": "Account",
+      "myInfo": "My Information",
+      "address": "Address",
+      "contacts": "Contacts"
+    }
+  },
+  "checkout": {
+    "infoPage": {
+      "pageTitle": "Checkout information",
+      "title": "Information"
+    },
+    "cartPage": {
+      "pageTitle": "Checkout cart",
+      "title": "Cart",
+      "main": {
+        "product": "Product",
+        "price": "Price",
+        "quantity": "Quantity",
+        "totalPrice": "Total price"
+      },
+      "fees": {
+        "deliveryCost": "Delivery Cost",
+        "total": "Total"
+      }
+    },
+    "paymentPage": {
+      "pageTitle": "Checkout payment",
+      "title": "Payment",
+      "subtitle": "Type of Payment",
+      "CreditCard": {
+        "title": "Card Payment",
+        "card": "Credit Card",
+        "stripe": {
+          "error": {
+            "default": "There was an error",
+            "feeTax": "There was an error calculating your delivery fee",
+            "tryAgain": "Try again"
+          },
+          "pay": "Pague"
+        }
+      },
+      "PayPalAccount": {
+        "title": "PayPal payment",
+        "card": "PayPal",
+        "error": "It will be available soon, sorry"
+      },
+      "PostPaid": {
+        "title": "Pay later payment",
+        "card": "Pay later",
+        "complete": "Complete Order",
+        "change": {
+          "needChange": "Do you need change?",
+          "howMuch": "How much change do you need?"
+        }
+      }
+    }
+  },
+  "orderPage": {
+    "pageTitle": "Order",
+    "main": {
+      "subTitle": "Confirmation",
+      "address": {
+        "title": "Address",
+        "heading": {
+          "id": "ID",
+          "name": "Name",
+          "email": "E-mail",
+          "phone": "Phone",
+          "whatsApp": "WhatsApp",
+          "city": "City",
+          "country": "Country",
+          "zip": "Zip Code"
+        }
+      },
+      "purchase": {
+        "title": "Purchase",
+        "heading": {
+          "size": "size",
+          "group": "group"
+        }
+      },
+      "payment": {
+        "title": "Payment",
+        "heading": {
+          "order": "Order",
+          "deliveryFee": "Delivery Fee",
+          "total": "Total"
+        }
+      }
+    }
+  },
+  "ordersPage": {
+    "pageTitle": "Orders",
+    "main": {
+      "status": {
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "on the way": "On the Way",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled"
+      },
+      "product": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      }
+    }
+  },
+  "ordersStatusPage": {
+    "pageTitle": "Orders by status",
+    "main": {
+      "pending": {
+        "title": "Pending orders",
+        "status": "Pending"
+      },
+      "accepted": {
+        "title": "Accepted orders",
+        "status": "Accepted"
+      },
+      "on the way": {
+        "title": "Orders on the way",
+        "status": "On the way"
+      },
+      "delivered": {
+        "title": "$Delivered orders",
+        "status": "Delivered"
+      },
+      "cancelled": {
+        "title": "Cancelled orders",
+        "status": "Cancelled"
+      },
+      "noOrders": "You have no orders.",
+      "page": "Page"
+    }
+  },
+  "mochiStorePage": {
+    "main": {
+      "title": "Welcome to Mochi Night!",
+      "subTitle": "Orders delivery directly to where you are."
+    }
+  },
+  "productPage": {
+    "main": {
+      "title": "Product details",
+      "table": {
+        "category": "Category",
+        "subCategory": "Subcategory",
+        "container": "Container",
+        "size": "Size",
+        "available": "Available"
+      },
+      "containerVary": "*The recipient can vary"
+    },
+    "card": {
+      "included": "Included: ",
+      "time": "Time to prepare: ",
+      "price": "Price per unit: "
+    }
+  },
+  "feedbackPage": {
+    "pageTitle": "Contact As {{ type }}"
+  }
+}

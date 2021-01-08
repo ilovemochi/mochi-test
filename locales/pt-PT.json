@@ -1,0 +1,833 @@
+{
+  "common": {
+    "language": {
+      "title": "Idioma",
+      "english": "Inglês",
+      "portuguese": "Português"
+    },
+    "ariaLabel": {
+      "prevItems": "Items anteriores",
+      "nextItems": "Items a seguir",
+      "addItem": "adicionar item",
+      "removeItem": "remover item"
+    },
+    "span": {
+      "product": "Produto",
+      "essentials": "Essenciais",
+      "restaurants": "Restaurantes",
+      "new": "Novo",
+      "hi": "Olá {{ name }}",
+      "storeStatus": {
+        "one": "aberto",
+        "other": "fechado"
+      },
+      "welcome": "Seja bem vindo",
+      "statusUntil": "até as {{ hour }}h"
+    },
+    "field": {
+      "name": {
+        "title": "Seu nome Completo",
+        "label": "Nome",
+        "min": "Nome tem que ser mais longo",
+        "max": "Nome tem que ser mais curto",
+        "type": "Nome tem que conter caracteres",
+        "required": "Nome é um campo obrigatório",
+        "advice": "Escreva um nome de até 40 caracteres"
+      },
+      "email": {
+        "title": "Seu email",
+        "label": "Email",
+        "required": "E-mail é um campo obrigatório",
+        "email": "É necessário inserir um email neste campo",
+        "type": "E-mail tem que conter caracteres",
+        "advice": "O email será usado para o login"
+      },
+      "birthDate": {
+        "title": "Sua data de nascimento",
+        "label": "data de nascimento",
+        "max": "É necessário ser maior de 12 anos",
+        "min": "Não pode ter mais de 100 anos",
+        "required": "É necessário partilhar a sua data de nascimento",
+        "type": "Data de nascimento tem que ser uma data",
+        "advice": "Use a sua data de nascimento válida"
+      },
+      "password": {
+        "title": "Sua palavra-passe",
+        "label": "palavra-passe",
+        "required": "Palavra-passe é um campo obrigatório",
+        "match": "6 caracteres, 1 número 1 letra maiúscula",
+        "type": "Palavra-passe tem que conter caracteres",
+        "advice": "Use uma palavra-passe segura"
+      },
+      "passwordConfirmation": {
+        "title": "Confirmação da sua palavra-passe",
+        "label": "confirmar palavra-passe",
+        "required": "Obrigatório confirmar a palavra-passe",
+        "type": "Palavra-passe tem que conter caracteres",
+        "match": "As palavras-passe têm que ser iguais"
+      },
+      "zip": {
+        "title": "Seu código postal",
+        "label": "Código Postal",
+        "required": "Código Postal é um campo obrigatório",
+        "type": "Código Postal tem que conter caracteres",
+        "advice": "Use o código ZIP do teu endereço"
+      },
+      "phone": {
+        "title": "Seu número de telefone",
+        "label": "Número de telefone",
+        "shortLabel": "Phone",
+        "required": "Telefone é um campo obrigatório",
+        "type": "Telefone tem que conter caracteres",
+        "advice": "O seu número de telemóvel é importante"
+      },
+      "whatsApp": {
+        "title": "Seu WhatsApp",
+        "label": "WhatsApp",
+        "type": "WhatsApp tem que conter caracteres",
+        "advice": "WhatsApp é um campo opcional mas recomendado"
+      },
+      "gender": {
+        "title": "Seu gênero",
+        "label": "Gênero",
+        "match": "Gênero tem que ser masculino, feminino ou outro",
+        "type": "Gênero deve conter caracteres",
+        "advice": "Escolha o seu gênero"
+      },
+      "city": {
+        "title": "Sua cidade",
+        "label": "City",
+        "required": "Cidade é um campo obrigatório",
+        "type": "Cidade tem que conter caracteres",
+        "advice": "Escolha a sua cidade actual",
+        "match": "A Cidade precisa pertencer ao Pais Seleccionado"
+      },
+      "street": {
+        "title": "Sua rua",
+        "label": "Rua",
+        "min": "O endereço deve ser mais longo",
+        "required": "Rua é um campo obrigatório",
+        "type": "Rua tem que conter caracteres",
+        "advice": "Este será o teu endereço",
+        "match": "A rua precisa pertencer ao Pais Seleccionado"
+      },
+      "country": {
+        "title": "Seu país",
+        "label": "Country",
+        "required": "País é um campo obrigatório",
+        "type": "País tem que conter caracteres",
+        "advice": "Escolha o seu país actual"
+      }
+    },
+    "options": {
+      "gender": {
+        "default": "Selecione o teu gênero",
+        "male": "Masculino",
+        "female": "Feminino",
+        "other": "Outro"
+      },
+      "city": {
+        "default": "Seleciona a tua cidade",
+        "lisbon": "Lisboa",
+        "luanda": "Luanda"
+      },
+      "country": {
+        "default": "Seleciona o teu país",
+        "angola": "Angola",
+        "portugal": "Portugal"
+      },
+      "PostPaid": {
+        "default": "Forma de pagamento",
+        "cash": "Cash",
+        "tpa": "Multicaixa(TPA)"
+      }
+    },
+    "button": {
+      "backToOptions": "Voltar às opções",
+      "search": "Pesquisar",
+      "back": "Voltar",
+      "prev": "Anterior",
+      "follow": "Próximo",
+      "next": "Seguinte",
+      "done": "Concluido",
+      "continue": "Continuar",
+      "send": "Enviar",
+      "seeMore": "Ver mais",
+      "seeAll": "Ver todos",
+      "buy": "Comprar {{ money }}",
+      "buyNow": "Comprar agora",
+      "signup": "Criar conta",
+      "login": "Entrar",
+      "logout": "Sair",
+      "yes": "Sim",
+      "no": "Não",
+      "edit": "Editar",
+      "cancel": "Cancelar",
+      "save": "Salvar"
+    },
+    "error": {
+      "title": "Erro",
+      "404": {
+        "code": "404",
+        "title": "Não encontrado",
+        "message": "Não encontramos o que procura"
+      },
+      "500": {
+        "code": "500",
+        "title": "Não existe",
+        "message": "Não existe nada para apresentar"
+      },
+      "1000": {
+        "code": "1000",
+        "title": "Erro desconhecido",
+        "message": "Algo correu mal :("
+      },
+      "1001": {
+        "code": "1001",
+        "title": "Falha ao carregar a página",
+        "message": "Tivemos problemas ao carregar a página!"
+      },
+      "1002": {
+        "code": "1001",
+        "title": "Carrinho vazio",
+        "message": "Precisa de ter produtos no carrinho"
+      },
+      "1003": {
+        "code": "1003",
+        "title": "Não tem sessão",
+        "message": "Não tem sessão iniciada, inicie sessão por favor"
+      },
+      "1004": {
+        "code": "1004",
+        "title": "Não existe",
+        "message": "Esta página não existe"
+      },
+      "1005": {
+        "code": "1005",
+        "title": "Nenhum pedido",
+        "message": "Não encontramos o pedido"
+      },
+      "1006": {
+        "code": "1006",
+        "title": "Problemas",
+        "message": "Tivemos problemas com o pedido"
+      },
+      "1007": {
+        "code": "1007",
+        "title": "Indisponível",
+        "message": "Erro! Produto indisponível"
+      },
+      "1010": {
+        "code": "1010",
+        "title": "Não há Token",
+        "message": "Está em falta o parâmetro com o Token"
+      },
+      "1011": {
+        "code": "1011",
+        "title": "Sessão valida",
+        "message": "Termine a sua sessão para aceder esta página"
+      }
+    },
+    "operation": {
+      "10100": {
+        "code": "10100",
+        "message": "O token de redefinição de senha expirou"
+      },
+      "10101": {
+        "code": "10101",
+        "message": "A sua conta do google é invalida"
+      },
+      "10102": {
+        "code": "10102",
+        "message": "Seu email ou password está incorrecto"
+      },
+      "10103": {
+        "code": "10103",
+        "message": "Loja está fechada"
+      },
+      "10104": {
+        "code": "10104",
+        "message": "A taxa de entrega está incorrecta"
+      },
+      "10105": {
+        "code": "10105",
+        "message": "Esta loja não suporta"
+      },
+      "10106": {
+        "code": "10106",
+        "message": "Não é possível entregar, o seu endereço esta fora da zona de entrega"
+      },
+      "10107": {
+        "code": "10107",
+        "message": "Não existe um pedido com o referido id"
+      },
+      "10108": {
+        "code": "10108",
+        "message": "Precisa fornecer a sua localização"
+      },
+      "10109": {
+        "code": "10109",
+        "message": "Não existem lojas Mochi Night perto de sua localização"
+      },
+      "10110": {
+        "code": "10110",
+        "message": "Necessário ter iniciado uma sessão para fazer esta operação"
+      },
+      "10111": {
+        "code": "10111",
+        "message": "Não conseguimos encontrar {{ value }} neste servidor!"
+      },
+      "10112": {
+        "code": "10112",
+        "message": "Loja não encontrada"
+      },
+      "10113": {
+        "code": "10113",
+        "message": "Necessário ser administrador para aceder este endpoint"
+      },
+      "10114": {
+        "code": "10114",
+        "message": "Ocorreu um erro: cliente stripe foi excluído"
+      },
+      "10115": {
+        "code": "10115",
+        "message": "Metodo errado de pagamento"
+      },
+      "10117": {
+        "code": "10117",
+        "message": "Ocorreu um erro: o custo total do carrinho está incorreto"
+      },
+      "10118": {
+        "code": "10118",
+        "message": "Aconteceu algo de errado"
+      },
+      "10119": {
+        "code": "10119",
+        "message": "Dados inválidos"
+      },
+      "10120": {
+        "code": "10120",
+        "message": "Campo com valor duplicado, {{ value }}, por favor use outro!"
+      },
+      "10121": {
+        "code": "10121",
+        "message": "Este usuário não tem stripe id"
+      },
+      "10122": {
+        "code": "10122",
+        "message": "Ocorreu um erro: {{ value }}"
+      },
+      "10123": {
+        "code": "10123",
+        "message": "O token de verificação de email expirou"
+      },
+      "10124": {
+        "code": "10124",
+        "message": "Precisa estar logado para verificar o seu email."
+      },
+      "10125": {
+        "code": "10125",
+        "message": "Sua senha atual está incorreta"
+      },
+      "10126": {
+        "code": "10126",
+        "message": "A confirmação da palavra-passe e palavra-passe não coincidem"
+      },
+      "10127": {
+        "code": "10127",
+        "message": "O seu número de telemóvel está incorrecto."
+      },
+      "10131": {
+        "code": "10131",
+        "message": "Contacto não encontrado"
+      },
+      "10132": {
+        "code": "10132",
+        "message": "Contacto é inválido"
+      },
+      "10133": {
+        "code": "10133",
+        "message": "Email inválido"
+      },
+      "11100": {
+        "code": "11100",
+        "message": "Não podemos entregar na sua localização"
+      },
+      "11200": {
+        "code": "11200",
+        "message": "Bem vindo de volta!"
+      },
+      "11201": {
+        "code": "11201",
+        "message": "Sessão terminada com sucesso"
+      },
+      "11202": {
+        "code": "11202",
+        "message": "Integrado com sucesso"
+      },
+      "11203": {
+        "code": "11203",
+        "message": "Suas informações foram atualizadas!"
+      },
+      "11204": {
+        "code": "11204",
+        "message": "Enviamos um e-mail para sua conta, verifique"
+      },
+      "11205": {
+        "code": "11205",
+        "message": "Sua senha foi redefinida com sucesso!"
+      },
+      "11206": {
+        "code": "11206",
+        "message": "Seu pedido foi bem sucedido"
+      },
+      "11207": {
+        "code": "11207",
+        "message": "As informações do seu pedido foram adicionadas com sucesso"
+      }
+    }
+  },
+  "oldNavBar": {
+    "faq": "FAQ",
+    "account": "Conta",
+    "contacts": "Contacte-nos"
+  },
+  "navBar": {
+    "home": "Página Inicial",
+    "store": "Loja",
+    "orders": "Pedidos",
+    "restaurants": "Restaurants",
+    "essentials": "Essentials",
+    "supermarkets": "Supermarkets",
+    "cart": {
+      "title": "Carrinho",
+      "aria": {
+        "label": "Ícone de carrinho",
+        "description": {
+          "one": "Abrir carrinho",
+          "other": "Fechar carrinho"
+        }
+      },
+      "status": {
+        "one": "Tu tens {{ number }} item no carrinho",
+        "other": "Tu tens {{ number }} items no carrinho"
+      }
+    },
+    "settings": {
+      "title": "Definições",
+      "aria": {
+        "label": "Ícone de seta para baixo",
+        "description": {
+          "one": "Abrir menú dropdown",
+          "other": "Fechar menú dropdown"
+        }
+      }
+    },
+    "account": {
+      "title": "Conta",
+      "aria": {
+        "label": "Ícone de conta",
+        "description": {
+          "one": "Abrir conta",
+          "other": "Fechar conta"
+        }
+      }
+    },
+    "ordersInProgress": {
+      "title": {
+        "one": "Pedido em andamento",
+        "other": "Pedidos em andamento"
+      },
+      "aria": {
+        "label": "Ícone de pedido",
+        "description": {
+          "one": "Abrir pedidos em andamento",
+          "other": "Fechar pedidos em andamento"
+        }
+      },
+      "status": {
+        "one": "Tens pedidos em andamento",
+        "other": "Tu não tens pedidos em andamento."
+      },
+      "noOrders": "Tu não tens pedidos em andamento."
+    }
+  },
+  "footer": {
+    "faq": "FAQ",
+    "contacts": "Contacte-nos",
+    "privacy": "Privacidade & Cookies",
+    "terms": "Termos e condições",
+    "accessibility": "Acessibilidade",
+    "copyright": "© 2020 Mochi Noir Lda"
+  },
+  "cart": {
+    "name": "Carrinho",
+    "title": "{{ store }} - Seu carrinho",
+    "delete": "Limpar"
+  },
+  "authModal": {
+    "title": "Bem vindo de volta!",
+    "headerMessage": "Entra para teres accesso aos nossos serviços.",
+    "footerMessage": "Clique em “Entrar” para concordar com os Termos de Serviço da Mochi e reconhecer que a Políticade Privacidade da Mochi se aplica a ti.",
+    "button": {
+      "google": "Entrar com Google",
+      "email": "Entrar com email",
+      "recoverPass": "Recuperar palavra-passe"
+    },
+    "navOptions": {
+      "signup": {
+        "description": "Não tenho conta",
+        "link": "Criar"
+      },
+      "login": {
+        "description": "Já tenho uma conta",
+        "link": "Entrar"
+      },
+      "mainSignup": {
+        "description": "Não tem conta?",
+        "link": "Cria uma"
+      },
+      "recoverPassword": {
+        "description": "Perdi a minha palavra-passe",
+        "link": "Recuperar"
+      }
+    }
+  },
+  "ageGuard": {
+    "label": "Um modal para verificar a idade do usuario"
+  },
+  "landingPage": {
+    "pageTitle": "Bem-vindo a Mochi",
+    "header": {
+      "intro": "Diga-nos o que queres que nós entregamos até ti!",
+      "plainText": "Comida, bebidas, compras de casa e muitos mais produtos disponíveis para entrega e levantamento em Lisboa e Luanda.",
+      "enjoy": {
+        "title": "Nós trazemos a diversão até ti!",
+        "button": "Quero divertir-me"
+      }
+    },
+    "addressInput": {
+      "placeholder": "Localização actual"
+    },
+    "mainContent": {
+      "save": {
+        "intro": "Poupa em grande aderindo ao nosso serviço de entregas ilimitadas.",
+        "description": "Entregas infinitas a um custo único mensal. Taxas de entrega reduzidas em qualquer pedido. Experimenta já esta opção e cancela quando desejares.",
+        "button": "Testa entregas infinitas"
+      },
+      "orders": {
+        "intro": "Faz compras nas tuas lojas preferidas.",
+        "description": "Tudo que quiseres nós conseguimos. Encomenda a tua entrega com os teus amigos e controla o trajecto da entrega em tempo real.",
+        "button": "Testa entregas infinitas"
+      },
+      "deliver": {
+        "intro": "Nós entregamos bebida, comida e muito mais.",
+        "description": "Precisas de um novo carregador para o teu aparelho? Precisas de produtos de cozinha? Precisas de bebidas para a tua festa com os amigos? Nós temos tudo disponível para entrega em 1 hora.",
+        "button": "Testa entregas infinitas"
+      },
+      "start": {
+        "title": "Pronto para encomendar?",
+        "description": "Encontra os restaurantes e lojas locais para entrega no endereço escolhido em baixo."
+      }
+    }
+  },
+  "contactsPage": {
+    "pageTitle": "Contactos",
+    "main": {
+      "title": "Contacte-nos como",
+      "client": {
+        "title": "Cliente",
+        "description": "Caro cliente se estiver insatisfeito com os nossos serviços, ou atendimento, sinta-se a vontade em partilhar connosco o que correu mal a fim de podermos resolver a situação e melhorar a sua experiência com a Mochi."
+      },
+      "store": {
+        "title": "Lojas",
+        "description": "Lojas que queiram ser nossas parceiras, basta entrarem em contacto connosco para começarmos a discutir uma possivel parceria."
+      },
+      "candidate": {
+        "title": "Candidato",
+        "description": "Candidatos que queiram fazer parte da equipa da Mochi inscrevam-se já que iremos analisar o seu currículo com muito gosto e satisfação."
+      }
+    }
+  },
+  "faqPage": {
+    "pageTitle": "FAQ",
+    "main": {
+      "title": "Perguntas Frequentes",
+      "whoWeAre": {
+        "question": "Quem nós somos?",
+        "answer": "Fundada em 2019, a Mochi é uma empresa de software focada em ajudar pequenos e medios negócios a venderem os seus produtos e serviços na internet atravês do nosso marketplace online. Somos um team de jovens empreendedores e programadores especializados em node.js, dedicados na criação de um marketplace para e-commerce."
+      },
+      "marketplace": {
+        "question": "O que será o Marketplace da Mochi?",
+        "answer": "O marketplace da Mochi será um website aonde os clientes poderão solicitar serviços e produtos ao domicilio de pequenas e médias empresas. O marketplace da Mochi também terá espaço para anúncios de produtos e serviços p2p."
+      },
+      "organized": {
+        "question": "Como o marketplace da Mochi estará organizado?",
+        "answer": "O nosso marketplace estará organizado em Mochi Essentials, Lojas independentes e restaurantes."
+      },
+      "services": {
+        "question": "Que serviços a Mochi Essentials oferece?",
+        "answer": "A Mochi Essentials oferece produtos de conveniência vendidos por lojas de supermercado locais mais perto dos nossos clientes. Este serviço tem uma taxa fixa de entrega e um tempo de entrega inferior a 30 minutos."
+      },
+      "restaurant": {
+        "question": "Quais Restaurantes se pode encontrar no nosso marketplace?",
+        "answer": "Pode-se encontrar no nosso marketplace vários restaurantes parceiros. A taxa e a zona de entrega dependem do restaurante."
+      },
+      "delivery": {
+        "question": "Aonde entregamos?",
+        "answer": {
+          "ao": "Nós entregamos em Lisboa e Luanda. Pesquisa as nossas lojas para encontrar a mais perto de si.",
+          "pt": "Nós entregamos em Lisboa e Luanda. Pesquisa as nossas lojas para encontrar a mais perto de si."
+        }
+      },
+      "cancellation": {
+        "question": "Cancelamentos?",
+        "answer": "Após 1 minuto de ser solicitado, já não aceitamos cancelamentos."
+      },
+      "payment": {
+        "question": "Modo de pagamento?",
+        "answer": {
+          "ao": "Os modos de pagamentos variam consoante o país e a loja.",
+          "pt": "Os modos de pagamentos variam consoante o país e a loja."
+        }
+      },
+      "payWhen": {
+        "question": "Pagamentos devem ser feito quando?",
+        "answer": {
+          "ao": "A altura do pagamento varia consoante o país e a loja.",
+          "pt": "A altura do pagamento varia consoante o país e a loja."
+        }
+      },
+      "whereOperate": {
+        "question": "Aonde o nosso team de gestão opera?",
+        "answer": "O nosso team opera remotamente em Lisboa e Luanda."
+      },
+      "stage": {
+        "question": "Em que fase estamos?",
+        "answer": "A nossa empresa encontra-se na fase de start-up autofinanciada pelos seus fundadores."
+      },
+      "employees": {
+        "question": "Que tipo de colaboradores estamos interessados?",
+        "answer": "A nossa empresa esta interessada em colaborar com profissionais criativos, pragmáticos e apaixonados pelo que fazem."
+      },
+      "values": {
+        "question": "Quais são os nossos valores",
+        "answer": "Os nossos valores são respeito, transparência radical no trabalho, amizade e paixão por aquilo que gostamos."
+      },
+      "needs": {
+        "question": "O que precisamos?",
+        "answer": "A Mochi precisa de investidores interessados em financiar o nosso projecto e que acreditem nos nossos sonhos."
+      },
+      "customers": {
+        "question": "Quem são os nossos clientes?",
+        "answer": "Empresas interessadas em desenvolver o seu negócio através e-commerce, fazendo parte do nosso marketplace."
+      }
+    }
+  },
+  "signInPage": {
+    "pageTitle": "Entrar",
+    "main": {
+      "title": "Entrar com email",
+      "headerText": "Coloque as credencias da sua conta associada a Mochi, correio eletrônico e palavra-passe."
+    }
+  },
+  "signupPage": {
+    "pageTitle": "Registar",
+    "board": {
+      "personal": "Criar Dados Pessoais",
+      "contacts": "Criar Contactos",
+      "address": "Criar Endereço",
+      "security": "Segurança"
+    }
+  },
+  "onBoardingPage": {
+    "pageTitle": "Integração",
+    "board": {
+      "personal": "Completar Dados Pessoais",
+      "contacts": "Completar Contactos",
+      "address": "Completar Endereço"
+    }
+  },
+  "recoverPasswordPage": {
+    "pageTitle": "Recuperar palavra-passe",
+    "main": {
+      "title": "Recuperar palavra-passe",
+      "headerText": "Coloque o email associado a tua conta da Mochi. Depois receberás um correio com o link para recuperar a tua palavra-pase."
+    }
+  },
+  "newPasswordPage": {
+    "pageTitle": "Nova palavra-passe",
+    "main": {
+      "title": "Nova palavra-passe",
+      "headerText": {
+        "main": "Você solicitou a recuperação de palavra-passe e foi redicioinado para essa página.",
+        "one": " Insira e confirma a sua nova palavra-passe",
+        "other": " Mas, infelizmente o seu token é inválido ou expirou, por favor solicite uma nova recuperação."
+      }
+    }
+  },
+  "settingsPage": {
+    "pageTitle": "Definições",
+    "menu": {
+      "title": "Conta",
+      "myInfo": "Minha Informação",
+      "address": "Endereço",
+      "contacts": "Contactos"
+    }
+  },
+  "checkout": {
+    "infoPage": {
+      "pageTitle": "Informações de Checkout",
+      "title": "Informações"
+    },
+    "cartPage": {
+      "pageTitle": "Carrinho de Checkout",
+      "title": "Carrinho",
+      "main": {
+        "product": "Produto",
+        "price": "Preço",
+        "quantity": "Quantity",
+        "totalPrice": "Preço Total"
+      },
+      "fees": {
+        "deliveryCost": "Custo de entrega",
+        "total": "Total"
+      }
+    },
+    "paymentPage": {
+      "pageTitle": "Pagamento de Checkout",
+      "title": "Pagamento",
+      "subtitle": "Modo de pagamento",
+      "CreditCard": {
+        "title": "Pagamento por cartão",
+        "card": "Cartão de crédito",
+        "stripe": {
+          "error": {
+            "default": "Houve um erro",
+            "feeTax": "Houve um erro a calcular a sua taxa de entrega",
+            "tryAgain": "Tente de novo"
+          },
+          "pay": "Pague"
+        }
+      },
+      "PayPalAccount": {
+        "title": "Pagamento via PayPal",
+        "card": "PayPal",
+        "error": "Estará disponível brevemente, desculpe"
+      },
+      "PostPaid": {
+        "title": "Pagamento pós-pago",
+        "card": "Pós-pago",
+        "complete": "Completar Pedido",
+        "change": {
+          "needChange": "Precisa de troco?",
+          "howMuch": "Quanto precisa de troco?"
+        }
+      }
+    }
+  },
+  "orderPage": {
+    "pageTitle": "Pedido",
+    "main": {
+      "subTitle": "Confirmação",
+      "address": {
+        "title": "Endereço",
+        "heading": {
+          "id": "ID",
+          "name": "Nome",
+          "email": "Email",
+          "phone": "Telefone",
+          "whatsApp": "WhatsApp",
+          "city": "Cidade",
+          "country": "País",
+          "zip": "Código Postal"
+        }
+      },
+      "purchase": {
+        "title": "Compra",
+        "heading": {
+          "size": "tamanho",
+          "group": "grupo"
+        }
+      },
+      "payment": {
+        "title": "Pagamento",
+        "heading": {
+          "order": "Pedido",
+          "deliveryFee": "Taxa de entrega",
+          "total": "Total"
+        }
+      }
+    }
+  },
+  "ordersPage": {
+    "pageTitle": "Pedidos",
+    "main": {
+      "status": {
+        "pending": "Pendentes",
+        "accepted": "Aceites",
+        "on the way": "A caminho",
+        "delivered": "Entregues",
+        "cancelled": "Cancelados"
+      },
+      "product": {
+        "one": "{{ count }} producto",
+        "other": "{{ count }} productos"
+      }
+    }
+  },
+  "ordersStatusPage": {
+    "pageTitle": "Pedidos por estados",
+    "main": {
+      "pending": {
+        "title": "Pedidos pendentes",
+        "status": "Pendentes"
+      },
+      "accepted": {
+        "title": "Pedidos aceites",
+        "status": "Aceites"
+      },
+      "on the way": {
+        "title": "Pedidos a caminho",
+        "status": "A caminho"
+      },
+      "delivered": {
+        "title": "Pededos entregues",
+        "status": "Entregues"
+      },
+      "cancelled": {
+        "title": "Pedidos cancelados",
+        "status": "Cancelados"
+      },
+      "noOrders": "Tu não tens pedidos.",
+      "page": "Página"
+    }
+  },
+  "mochiStorePage": {
+    "main": {
+      "title": "Bem vindo a MochiNight!",
+      "subTitle": "Pedidos entregues directamente aonde estiver."
+    }
+  },
+  "productPage": {
+    "main": {
+      "title": "Detalhes do Produto",
+      "table": {
+        "category": "Categoria",
+        "subCategory": "Subcategoria",
+        "container": "Recipiente",
+        "size": "Tamanho",
+        "available": "Disponível"
+      },
+      "containerVary": "*O recipiente pode variar"
+    },
+    "card": {
+      "included": "Inclui: ",
+      "time": "Tempo para preparar: ",
+      "price": "Preço por unidade: "
+    }
+  },
+  "feedbackPage": {
+    "pageTitle": "Contactar Como {{ type }}"
+  }
+}

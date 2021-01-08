@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@test-utils": ["./modules/test-utils.tsx"],
+      "@design-system": ["./modules/design-system"],
+      "@elements/*": ["./modules/elements/*"],
+      "@elements": ["./modules/elements/index"],
+      "@api/*": ["./modules/api/*"],
+      "@api": ["./modules/api/index"],
+      "@constants/*": ["./modules/constants/*"],
+      "@hooks/*": ["./modules/hooks/*"],
+      "@hooks": ["./modules/hooks/index"],
+      "@redux/*": ["./modules/redux/*"],
+      "@typescript/*": ["./modules/typescript/*"],
+      "@utils/*": ["./modules/utils/*"],
+      "@typescript": ["./modules/typescript/index"],
+      "@components/*": ["./components/*"],
+      "@components": ["./components/index"],
+      "@views/*": ["./views/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    ".next",
+    "out",
+    "__tests__",
+    "**/*.tests.ts",
+    "**/*.tests.tsx",
+    "**/*.builder.ts",
+    "__mocks__",
+    ".vercel",
+    ".jest",
+    "modules/test-utils.tsx"
+  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"],
+  "types": ["googlemaps", "csstype"]
+}

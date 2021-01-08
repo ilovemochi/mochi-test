@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="logo Mochi" src="logo.PNG" />
+    <img alt="logo Mochi" src="logo-purplehorizontal.png" />
     <br>
     Mochi optitude test
     <br>
@@ -73,7 +73,7 @@ $ npm test
 $ npm test components/shared/form/search-location-input/file-name.test.tsx
 ```
 
-Made by I :hearts: Mochi
+Made by **I** :hearts: **Mochi**
 
 [nodejs]: https://nodejs.org/
 [vc]: https://code.visualstudio.com/

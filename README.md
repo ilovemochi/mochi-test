@@ -1,7 +1,7 @@
 <h1 align="center">
     <img alt="logo Mochi" src="logo-purplehorizontal.png" />
     <br>
-    Mochi optitude test
+    Mochi Aptitude Test
     <br>
 </h1>
 

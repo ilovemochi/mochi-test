@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card render tests Essential card render text and allows click 1`] = `
+.c1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.c1 .lazyload,
+.c1 .lazyloading {
+  opacity: 0;
+}
+
+.c1 .lazyload,
+.c1 .lazyloaded,
+.c1 {
+  opacity: 1;
+  -webkit-transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+  transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+}
+
+.c1:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-animation: fTPTbj 1.2s infinite ease-in-out;
+  animation: fTPTbj 1.2s infinite ease-in-out;
+  background-color: #745CA0;
+}
+
+.c1 img {
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+  z-index: 0;
+  object-fit: contain;
+}
+
+.c0 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 18rem;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2:hover > .store {
+  padding-top: 45%;
+}
+
+.c2:hover > .product {
+  padding-bottom: 45%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.75);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c4 {
+  line-height: 150%;
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.c5 {
+  line-height: 150%;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+<div>
+  <div
+    id="__next"
+  >
+    <div
+      aria-label="nocal"
+      class="c0"
+      display="flex"
+      height="100%"
+      role="figure"
+      width="18rem"
+    >
+      <div
+        class="c1"
+      >
+        <img
+          alt="nocal"
+          class="lazyload"
+          data-sizes="auto"
+          data-srcset="S3_BUCKET/img-300w.png 300w, S3_BUCKET/img-600w.png 600w"
+          src="S3_BUCKET/img-600w.png"
+          srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+      role="article"
+    >
+      <div
+        class="c3 store"
+      >
+        <p
+          class="c4"
+          color="textInverted"
+        >
+          MochiStore
+        </p>
+      </div>
+      <div
+        class="c3 product"
+      >
+        <p
+          class="c5"
+          color="textInverted"
+        >
+          nocal
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

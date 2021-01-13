@@ -1,6 +1,5 @@
 import DEFAULT_CONFIG from '@constants/config';
 import { useGeoCode, useGetPlacePredictions, useI18n } from '@hooks';
-import { Address } from '@ilovemochi/enums';
 import { AutocompletePrediction, GeocoderResult } from '@typescript';
 import { getFormattedAddress, getReactHookFormError } from '@utils/helper-functions';
 import { head, o, pathOr } from 'ramda';
@@ -51,7 +50,7 @@ const SearchLocationInput: FC<SearchLocationInputProps> = ({
   );
 
   const geoCodeLoaded = useGeoCode({ placeId }, handleSelectPrediction);
-  const error = getReactHookFormError({ name: Address.Street, errors });
+  const error = getReactHookFormError({ name: 'street', errors });
 
   const handleKeyEnter = useCallback(
     (event: KeyboardEvent<HTMLInputElement>) => {
@@ -72,7 +71,7 @@ const SearchLocationInput: FC<SearchLocationInputProps> = ({
     <ReactFormFieldWrapper>
       <TextField
         noBorder={noBorder}
-        name={Address.Street}
+        name={'street'}
         label={t('common.field.street.label')}
         disabled={isDisabled}
         autoComplete="chrome-off"
@@ -105,7 +104,7 @@ const SearchLocationInput: FC<SearchLocationInputProps> = ({
           ))}
         </PredictionsWrapper>
       ) : null}
-      {!!error && <FieldErrorMessage errors={errors} name={Address.Street} />}
+      {!!error && <FieldErrorMessage errors={errors} name='street' />}
     </ReactFormFieldWrapper>
   );
 };

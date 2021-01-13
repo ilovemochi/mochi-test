@@ -1,4 +1,3 @@
-import { maxWidth } from '@utils/helper-functions';
 import styled, { css } from 'styled-components';
 
 import { Text } from '../../../elements';
@@ -14,9 +13,6 @@ export const FieldWrapper = styled.div`
   border-top: 0.1rem solid rgba(40, 47, 54, 0.05);
   display: block;
   ${FlexStyles({ justifyContent: 'space-between' })}
-  ${maxWidth.forTabletPortraitUp(css`
-    ${FlexStyles({ flexWrap: 'wrap', justifyContent: 'flex-start' })}
-  `)}
 `;
 
 export const FieldTitle = styled(Text)`
@@ -37,10 +33,6 @@ export const ButtonsWrapper = styled.div`
   padding: 0;
   display: block;
   ${FlexStyles({ alignItems: 'center' })}
-  ${maxWidth.forTabletPortraitUp(css`
-    ${FlexStyles({ flexWrap: 'wrap', justifyContent: 'center' })};
-    margin-top: 1rem;
-  `)}
 `;
 
 export const ReactFormFieldWrapper = styled.div`

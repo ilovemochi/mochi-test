@@ -13,7 +13,7 @@ describe('Text field render tests', () => {
     labelLess: false,
     isPasswordField: false,
     width: '35rem',
-    label: 'Nome de usuário',
+    label: 'User name',
     placeholder: 'User placeholder',
     name: 'gender',
   };
@@ -32,7 +32,9 @@ describe('Text field render tests', () => {
   });
   it('displays the password elements', () => {
     const onChange = jest.fn();
-    render(<TextField {...props} type="password" onChange={onChange} />, { newTheme: true });
+    render(<TextField {...props} label="password" type="password" onChange={onChange} />, {
+      newTheme: true,
+    });
 
     const input = screen.getByPlaceholderText('User placeholder');
     userEvent.type(input, 'Teste123');

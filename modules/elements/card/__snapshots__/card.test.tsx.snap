@@ -1,0 +1,1787 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card render tests properly renders the mini restaurant card 1`] = `
+.c0 {
+  box-shadow: 0 0 0.5rem #D1D9DA;
+  border-radius: 0.937rem;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  min-width: 27rem;
+  cursor: pointer;
+  width: 35rem;
+  background-color: #FAFCFE;
+}
+
+.c14 {
+  font-size: 1.6rem;
+  margin: 0.5rem;
+  color: #D7263D;
+}
+
+.c9 {
+  font-size: 1.6rem;
+  margin: 0.5rem;
+  color: rgba(0,0,0,0);
+  font-weight: bold;
+}
+
+.c9 path {
+  stroke: #33393F;
+  stroke-width: 5rem;
+  stroke-linejoin: round !important;
+  stroke-linecap: round !important;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.c3 .lazyload,
+.c3 .lazyloading {
+  opacity: 0;
+}
+
+.c3 .lazyload,
+.c3 .lazyloaded,
+.c3 {
+  opacity: 1;
+  -webkit-transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+  transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+}
+
+.c3:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-animation: fTPTbj 1.2s infinite ease-in-out;
+  animation: fTPTbj 1.2s infinite ease-in-out;
+  background-color: #745CA0;
+}
+
+.c3 img {
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+  z-index: 0;
+  object-fit: contain;
+}
+
+.c1 {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  height: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  margin: 0.5rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #19795B;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.937rem;
+}
+
+.c4 {
+  overflow: hidden;
+  z-index: 1;
+  background-color: #FAFCFE;
+  margin-top: -9rem;
+  border-radius: 50%;
+  height: 15rem;
+  width: 15rem;
+  box-shadow: 0 0 0.5rem rgba(0,0,0,0.3);
+}
+
+.c6 {
+  line-height: 120%;
+  -webkit-letter-spacing: calc(2.8rem * -0.02);
+  -moz-letter-spacing: calc(2.8rem * -0.02);
+  -ms-letter-spacing: calc(2.8rem * -0.02);
+  letter-spacing: calc(2.8rem * -0.02);
+  font-size: 2.8rem;
+}
+
+.c10 {
+  line-height: 150%;
+  font-size: 1.4rem;
+  color: #475058;
+}
+
+.c13 {
+  line-height: 150%;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+<div>
+  <div
+    id="__next"
+  >
+    <div
+      aria-hidden="false"
+      class="c0"
+      role="listitem"
+    >
+      <div
+        aria-label="restaurant"
+        class="c1"
+        display="flex"
+        role="article"
+        width="100%"
+      >
+        <div
+          aria-label="store name"
+          class="c2"
+          display="flex"
+          height="10rem"
+          role="figure"
+        >
+          <div
+            class="c3"
+          >
+            <img
+              alt="store name"
+              class="lazyload"
+              data-sizes="auto"
+              data-srcset="S3_BUCKET/img-300w.png 300w, S3_BUCKET/img-600w.png 600w"
+              src="S3_BUCKET/img-600w.png"
+              srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            />
+          </div>
+        </div>
+        <div
+          aria-label="store name logo"
+          class="c4"
+          height="15rem"
+          role="figure"
+          width="15rem"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block;"
+              />
+            </div>
+            <img
+              alt="store name logo"
+              decoding="async"
+              src="/_next/image?url=%2Fimg-300w.png&w=640&q=75"
+              srcset="/_next/image?url=%2Fimg-300w.png&w=256&q=75 1x, /_next/image?url=%2Fimg-300w.png&w=384&q=75 2x, /_next/image?url=%2Fimg-300w.png&w=640&q=75 3x"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+        <div
+          class="c5"
+          display="flex"
+          width="100%"
+        >
+          <p
+            class="c6"
+          >
+            store name
+          </p>
+          <div
+            class="c7"
+            display="flex"
+            width="100%"
+          >
+            <div
+              aria-label="distance in minutes"
+              class="c8"
+              display="flex"
+            >
+              <svg
+                aria-label="location"
+                class="c9"
+                fill="currentColor"
+                height="1em"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M444.52 3.52L28.74 195.42c-47.97 22.39-31.98 92.75 19.19 92.75h175.91v175.91c0 51.17 70.36 67.17 92.75 19.19l191.9-415.78c15.99-38.39-25.59-79.97-63.97-63.97z"
+                />
+              </svg>
+              <p
+                aria-label="time"
+                class="c10"
+                color="grayQuaternary"
+              >
+                10
+                min
+              </p>
+            </div>
+            <div
+              class="c11"
+              display="inline-flex"
+            >
+              <div
+                class="c12"
+                display="inline-flex"
+              >
+                <p
+                  class="c13"
+                  color="textInverted"
+                >
+                  open
+                </p>
+              </div>
+              <p
+                class="c10"
+                color="grayQuaternary"
+              >
+                until 10h
+              </p>
+            </div>
+            <div
+              aria-label="like counter"
+              class="c8"
+              display="flex"
+            >
+              <svg
+                aria-label="likes"
+                class="c14"
+                fill="currentColor"
+                height="1em"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              <p
+                class="c10"
+                color="grayQuaternary"
+              >
+                10
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card render tests properly renders the restaurant card 1`] = `
+.c0 {
+  box-shadow: 0 0 0.5rem #D1D9DA;
+  border-radius: 0.937rem;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  min-width: 27rem;
+  cursor: pointer;
+  width: 35rem;
+  background-color: #FAFCFE;
+}
+
+.c14 {
+  font-size: 1.6rem;
+  margin: 0.5rem;
+  color: #D7263D;
+}
+
+.c9 {
+  font-size: 1.6rem;
+  margin: 0.5rem;
+  color: rgba(0,0,0,0);
+  font-weight: bold;
+}
+
+.c9 path {
+  stroke: #33393F;
+  stroke-width: 5rem;
+  stroke-linejoin: round !important;
+  stroke-linecap: round !important;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.c3 .lazyload,
+.c3 .lazyloading {
+  opacity: 0;
+}
+
+.c3 .lazyload,
+.c3 .lazyloaded,
+.c3 {
+  opacity: 1;
+  -webkit-transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+  transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+}
+
+.c3:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-animation: fTPTbj 1.2s infinite ease-in-out;
+  animation: fTPTbj 1.2s infinite ease-in-out;
+  background-color: #745CA0;
+}
+
+.c3 img {
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+  z-index: 0;
+  object-fit: contain;
+}
+
+.c1 {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  height: 15rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  margin: 0.5rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #19795B;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.937rem;
+}
+
+.c4 {
+  overflow: hidden;
+  z-index: 1;
+  background-color: #FAFCFE;
+  margin-top: -7.5rem;
+  border-radius: 50%;
+  height: 15rem;
+  width: 15rem;
+  box-shadow: 0 0 0.5rem rgba(0,0,0,0.3);
+}
+
+.c6 {
+  line-height: 120%;
+  -webkit-letter-spacing: calc(2.8rem * -0.02);
+  -moz-letter-spacing: calc(2.8rem * -0.02);
+  -ms-letter-spacing: calc(2.8rem * -0.02);
+  letter-spacing: calc(2.8rem * -0.02);
+  font-size: 2.8rem;
+}
+
+.c10 {
+  line-height: 150%;
+  font-size: 1.4rem;
+  color: #475058;
+}
+
+.c13 {
+  line-height: 150%;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+<div>
+  <div
+    id="__next"
+  >
+    <div
+      aria-hidden="false"
+      class="c0"
+      role="listitem"
+    >
+      <div
+        aria-label="restaurant"
+        class="c1"
+        display="flex"
+        role="article"
+        width="100%"
+      >
+        <div
+          aria-label="store name"
+          class="c2"
+          display="flex"
+          height="15rem"
+          role="figure"
+        >
+          <div
+            class="c3"
+          >
+            <img
+              alt="store name"
+              class="lazyload"
+              data-sizes="auto"
+              data-srcset="S3_BUCKET/img-300w.png 300w, S3_BUCKET/img-600w.png 600w"
+              src="S3_BUCKET/img-600w.png"
+              srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            />
+          </div>
+        </div>
+        <div
+          aria-label="store name logo"
+          class="c4"
+          height="15rem"
+          role="figure"
+          width="15rem"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block;"
+              />
+            </div>
+            <img
+              alt="store name logo"
+              decoding="async"
+              src="/_next/image?url=%2Fimg-300w.png&w=640&q=75"
+              srcset="/_next/image?url=%2Fimg-300w.png&w=256&q=75 1x, /_next/image?url=%2Fimg-300w.png&w=384&q=75 2x, /_next/image?url=%2Fimg-300w.png&w=640&q=75 3x"
+              style="visibility: visible; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+        <div
+          class="c5"
+          display="flex"
+          width="100%"
+        >
+          <p
+            class="c6"
+          >
+            store name
+          </p>
+          <div
+            class="c7"
+            display="flex"
+            width="100%"
+          >
+            <div
+              aria-label="distance in minutes"
+              class="c8"
+              display="flex"
+            >
+              <svg
+                aria-label="location"
+                class="c9"
+                fill="currentColor"
+                height="1em"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M444.52 3.52L28.74 195.42c-47.97 22.39-31.98 92.75 19.19 92.75h175.91v175.91c0 51.17 70.36 67.17 92.75 19.19l191.9-415.78c15.99-38.39-25.59-79.97-63.97-63.97z"
+                />
+              </svg>
+              <p
+                aria-label="time"
+                class="c10"
+                color="grayQuaternary"
+              >
+                10
+                min
+              </p>
+            </div>
+            <div
+              class="c11"
+              display="inline-flex"
+            >
+              <div
+                class="c12"
+                display="inline-flex"
+              >
+                <p
+                  class="c13"
+                  color="textInverted"
+                >
+                  open
+                </p>
+              </div>
+              <p
+                class="c10"
+                color="grayQuaternary"
+              >
+                until 10h
+              </p>
+            </div>
+            <div
+              aria-label="like counter"
+              class="c8"
+              display="flex"
+            >
+              <svg
+                aria-label="likes"
+                class="c14"
+                fill="currentColor"
+                height="1em"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                />
+              </svg>
+              <p
+                class="c10"
+                color="grayQuaternary"
+              >
+                10
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card render tests should render essential card 1`] = `
+.c0 {
+  box-shadow: 0 0 0.5rem #D1D9DA;
+  border-radius: 0.937rem;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  width: 18rem;
+  height: 22rem;
+  background-color: #FAFCFE;
+}
+
+.c3 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3:hover > .store {
+  padding-top: 45%;
+}
+
+.c3:hover > .product {
+  padding-bottom: 45%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.75);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.c2 .lazyload,
+.c2 .lazyloading {
+  opacity: 0;
+}
+
+.c2 .lazyload,
+.c2 .lazyloaded,
+.c2 {
+  opacity: 1;
+  -webkit-transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+  transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+}
+
+.c2:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-animation: fTPTbj 1.2s infinite ease-in-out;
+  animation: fTPTbj 1.2s infinite ease-in-out;
+  background-color: #745CA0;
+}
+
+.c2 img {
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+  z-index: 0;
+  object-fit: contain;
+}
+
+.c1 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 18rem;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  line-height: 150%;
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.c6 {
+  line-height: 150%;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+<div>
+  <div
+    id="__next"
+  >
+    <div
+      aria-hidden="false"
+      class="c0"
+      role="listitem"
+    >
+      <div
+        aria-label="nocal"
+        class="c1"
+        display="flex"
+        height="100%"
+        role="figure"
+        width="18rem"
+      >
+        <div
+          class="c2"
+        >
+          <img
+            alt="nocal"
+            class="lazyload"
+            data-sizes="auto"
+            data-srcset="S3_BUCKET/img-300w.png 300w, S3_BUCKET/img-600w.png 600w"
+            src="S3_BUCKET/img-600w.png"
+            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          />
+        </div>
+      </div>
+      <div
+        class="c3"
+        role="article"
+      >
+        <div
+          class="c4 store"
+        >
+          <p
+            class="c5"
+            color="textInverted"
+          >
+            MochiStore
+          </p>
+        </div>
+        <div
+          class="c4 product"
+        >
+          <p
+            class="c6"
+            color="textInverted"
+          >
+            nocal
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card render tests should render mini product card 1`] = `
+.c0 {
+  box-shadow: 0 0 0.5rem #D1D9DA;
+  border-radius: 0.937rem;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  min-width: 27rem;
+  background-color: #FAFCFE;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.c3 .lazyload,
+.c3 .lazyloading {
+  opacity: 0;
+}
+
+.c3 .lazyload,
+.c3 .lazyloaded,
+.c3 {
+  opacity: 1;
+  -webkit-transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+  transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+}
+
+.c3:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-animation: fTPTbj 1.2s infinite ease-in-out;
+  animation: fTPTbj 1.2s infinite ease-in-out;
+  background-color: #745CA0;
+}
+
+.c3 img {
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+  z-index: 0;
+  object-fit: contain;
+}
+
+.c1 {
+  width: 35rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  height: 12rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c7 {
+  margin: 2rem 1rem 4rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  padding: calc(1rem + 0.125rem) 5rem;
+  border-radius: 0.937rem;
+  line-height: 150%;
+  -webkit-letter-spacing: calc(2.1rem * 0.1);
+  -moz-letter-spacing: calc(2.1rem * 0.1);
+  -ms-letter-spacing: calc(2.1rem * 0.1);
+  letter-spacing: calc(2.1rem * 0.1);
+  font-weight: bold;
+  text-align: center;
+  font-size: Medium;
+  color: #FFFFFF;
+  background-color: #3A0896;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.c11:hover {
+  background-color: #6E43BF;
+}
+
+.c11:focus {
+  background-color: #3A0896;
+}
+
+.c11:active {
+  background-color: #745CA0;
+}
+
+.c11:disabled {
+  background-color: #889BA2;
+  cursor: default;
+}
+
+.c6 {
+  line-height: 150%;
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.c8 {
+  line-height: 150%;
+  font-size: 1.6rem;
+}
+
+.c9 {
+  line-height: 150%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #273C75;
+}
+
+.c9:hover {
+  color: #40739e;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c12 {
+  line-height: 150%;
+  -webkit-letter-spacing: calc(2.1rem * 0.1);
+  -moz-letter-spacing: calc(2.1rem * 0.1);
+  -ms-letter-spacing: calc(2.1rem * 0.1);
+  letter-spacing: calc(2.1rem * 0.1);
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c13 {
+  line-height: 150%;
+  -webkit-letter-spacing: calc(2.1rem * 0.1);
+  -moz-letter-spacing: calc(2.1rem * 0.1);
+  -ms-letter-spacing: calc(2.1rem * 0.1);
+  letter-spacing: calc(2.1rem * 0.1);
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+}
+
+<div>
+  <div
+    id="__next"
+  >
+    <div
+      aria-hidden="false"
+      class="c0"
+      role="listitem"
+    >
+      <div
+        aria-label="product"
+        class="c1"
+        display="flex"
+        role="article"
+        width="35rem"
+      >
+        <div
+          aria-label="nocal"
+          class="c2"
+          display="flex"
+          height="12rem"
+          role="figure"
+        >
+          <div
+            class="c3"
+          >
+            <img
+              alt="nocal"
+              class="lazyload"
+              data-sizes="auto"
+              data-srcset="S3_BUCKET/img-300w.png 300w, S3_BUCKET/img-600w.png 600w"
+              src="S3_BUCKET/img-600w.png"
+              srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            />
+          </div>
+        </div>
+        <div
+          class="c4"
+          display="flex"
+        >
+          <div
+            class="c5"
+            display="flex"
+          >
+            <p
+              class="c6"
+            >
+              nocal
+            </p>
+            <div
+              class="c7"
+            >
+              <p
+                class="c8"
+              >
+                <span
+                  class="c8"
+                >
+                  Included: 
+                </span>
+                tomates 20g, cebola 15g, alface 5g, 1 fatia de pão e molho janonês.
+                ...
+                <span
+                  class="c9"
+                >
+                  View more
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="c10"
+            display="flex"
+            width="100%"
+          >
+            <button
+              aria-labelledby="6"
+              class="c11"
+              type="button"
+              width="100%"
+            >
+              <p
+                aria-label="price"
+                class="c12"
+              >
+                1000
+              </p>
+              <p
+                class="c13"
+                id="6"
+              >
+                add to cart
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card render tests should render product card 1`] = `
+.c0 {
+  box-shadow: 0 0 0.5rem #D1D9DA;
+  border-radius: 0.937rem;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  min-width: 27rem;
+  background-color: #FAFCFE;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.c3 .lazyload,
+.c3 .lazyloading {
+  opacity: 0;
+}
+
+.c3 .lazyload,
+.c3 .lazyloaded,
+.c3 {
+  opacity: 1;
+  -webkit-transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+  transition: 2s cubic-bezier(0.215,0.61,0.355,1);
+}
+
+.c3:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-animation: fTPTbj 1.2s infinite ease-in-out;
+  animation: fTPTbj 1.2s infinite ease-in-out;
+  background-color: #745CA0;
+}
+
+.c3 img {
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+  z-index: 0;
+  object-fit: contain;
+}
+
+.c1 {
+  width: 45rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  height: 12rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c7 {
+  margin: 2rem 1rem 4rem;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  padding: calc(1rem + 0.125rem) 5rem;
+  border-radius: 0.937rem;
+  line-height: 150%;
+  -webkit-letter-spacing: calc(2.1rem * 0.1);
+  -moz-letter-spacing: calc(2.1rem * 0.1);
+  -ms-letter-spacing: calc(2.1rem * 0.1);
+  letter-spacing: calc(2.1rem * 0.1);
+  font-weight: bold;
+  text-align: center;
+  font-size: Medium;
+  color: #FFFFFF;
+  background-color: #3A0896;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.c10:hover {
+  background-color: #6E43BF;
+}
+
+.c10:focus {
+  background-color: #3A0896;
+}
+
+.c10:active {
+  background-color: #745CA0;
+}
+
+.c10:disabled {
+  background-color: #889BA2;
+  cursor: default;
+}
+
+.c14 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  padding: calc(1rem + 0.125rem) 5rem;
+  border-radius: 0.937rem;
+  line-height: 150%;
+  -webkit-letter-spacing: calc(2.1rem * 0.1);
+  -moz-letter-spacing: calc(2.1rem * 0.1);
+  -ms-letter-spacing: calc(2.1rem * 0.1);
+  letter-spacing: calc(2.1rem * 0.1);
+  font-weight: bold;
+  text-align: center;
+  font-size: Medium;
+  padding: 0;
+  font-weight: normal;
+  color: #FFFFFF;
+  background-color: #3A0896;
+  width: calc(1rem * 3);
+  height: calc(1rem * 3);
+  border-radius: 50%;
+  margin: 0 0.25rem;
+}
+
+.c14:hover {
+  background-color: #6E43BF;
+}
+
+.c14:focus {
+  background-color: #3A0896;
+}
+
+.c14:active {
+  background-color: #745CA0;
+}
+
+.c14:disabled {
+  background-color: #889BA2;
+  cursor: default;
+}
+
+.c6 {
+  line-height: 150%;
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.c8 {
+  line-height: 150%;
+  font-size: 1.6rem;
+}
+
+.c11 {
+  line-height: 150%;
+  -webkit-letter-spacing: calc(2.1rem * 0.1);
+  -moz-letter-spacing: calc(2.1rem * 0.1);
+  -ms-letter-spacing: calc(2.1rem * 0.1);
+  letter-spacing: calc(2.1rem * 0.1);
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c12 {
+  line-height: 150%;
+  -webkit-letter-spacing: calc(2.1rem * 0.1);
+  -moz-letter-spacing: calc(2.1rem * 0.1);
+  -ms-letter-spacing: calc(2.1rem * 0.1);
+  letter-spacing: calc(2.1rem * 0.1);
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+}
+
+<div>
+  <div
+    id="__next"
+  >
+    <div
+      aria-hidden="false"
+      class="c0"
+      role="listitem"
+    >
+      <div
+        aria-label="product"
+        class="c1"
+        display="flex"
+        role="article"
+        width="45rem"
+      >
+        <div
+          aria-label="nocal"
+          class="c2"
+          display="flex"
+          height="12rem"
+          role="figure"
+        >
+          <div
+            class="c3"
+          >
+            <img
+              alt="nocal"
+              class="lazyload"
+              data-sizes="auto"
+              data-srcset="S3_BUCKET/img-300w.png 300w, S3_BUCKET/img-600w.png 600w"
+              src="S3_BUCKET/img-600w.png"
+              srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            />
+          </div>
+        </div>
+        <div
+          class="c4"
+          display="flex"
+        >
+          <div
+            class="c5"
+            display="flex"
+          >
+            <p
+              class="c6"
+            >
+              nocal
+            </p>
+            <div
+              class="c7"
+            >
+              <p
+                class="c8"
+              >
+                <span
+                  class="c8"
+                >
+                  <b>
+                    Included: 
+                  </b>
+                </span>
+                tomates 20g, cebola 15g, alface 5g, 1 fatia de pão e molho janonês.
+                 
+              </p>
+              <p
+                class="c8"
+              >
+                <span
+                  class="c8"
+                >
+                  <b>
+                    Time to prepare: 
+                  </b>
+                </span>
+                20min
+              </p>
+              <p
+                class="c8"
+              >
+                <span
+                  class="c8"
+                >
+                  <b>
+                    Price per unit: 
+                  </b>
+                </span>
+                1000
+              </p>
+            </div>
+          </div>
+          <div
+            class="c9"
+            display="flex"
+            width="100%"
+          >
+            <button
+              aria-labelledby="12"
+              class="c10"
+              type="button"
+              width="100%"
+            >
+              <p
+                aria-label="price"
+                class="c11"
+              >
+                1000
+              </p>
+              <p
+                class="c12"
+                id="12"
+              >
+                add to cart
+              </p>
+            </button>
+            <div
+              class="c13"
+              display="inline-flex"
+            >
+              <button
+                aria-disabled="true"
+                aria-labelledby="10"
+                class="c14"
+                disabled=""
+                type="button"
+              >
+                <svg
+                  aria-label="remove item"
+                  fill="currentColor"
+                  height="1em"
+                  id="10"
+                  role="img"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-disabled="true"
+                aria-label="quantity"
+                class="c14"
+                color="text"
+                disabled=""
+                type="button"
+              >
+                1
+              </button>
+              <button
+                aria-labelledby="11"
+                class="c14"
+                type="button"
+              >
+                <svg
+                  aria-label="add item"
+                  fill="currentColor"
+                  height="1em"
+                  id="11"
+                  role="img"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

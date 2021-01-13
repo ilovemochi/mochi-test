@@ -23,16 +23,7 @@
     "update-private:test-suite": "npm install @ilovemochi/test-suite@latest"
   },
   "dependencies": {
-    "@ilovemochi/enums": "^1.8.4",
-    "@ilovemochi/logic": "^1.1.2",
-    "@ilovemochi/types": "^1.12.3",
-    "@stripe/react-stripe-js": "^1.0.2",
-    "@stripe/stripe-js": "^1.9.0",
-    "@typeform/embed": "^0.16.0",
     "date-fns": "^2.16.1",
-    "dinero.js": "^1.6.0",
-    "fast-memoize": "^2.5.1",
-    "lazysizes": "^5.2.2",
     "next": "^10.0.3",
     "next-redux-wrapper": "^6.0.2",
     "nprogress": "^0.2.0",

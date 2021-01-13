@@ -1,12 +1,26 @@
-import { IStyles } from '@typescript';
-import { addStyles } from '@utils/helper-functions';
 import styled from 'styled-components';
+import { color, layout, variant } from 'styled-system';
+
+import { space } from '../../design-system';
 
 // eslint-disable-next-line import/prefer-default-export
-export const Divider = styled.div<IStyles>`
-  display: inline-block;
-  border: 0;
-  padding: 0;
-  ${props => addStyles(props.styles)};
-  z-index: 10;
-`;
+export const StyledDivider = styled('div')(
+  variant({
+    variants: {
+      horizontal: {
+        display: 'block',
+        height: 0,
+        borderTop: '0.1rem solid currentColor',
+      },
+      vertical: {
+        display: 'inline-block',
+        width: 0,
+        paddingRight: space.M,
+        marginRight: space.M,
+        borderRight: '0.1rem solid currentColor',
+      },
+    },
+  }),
+  color,
+  layout
+);

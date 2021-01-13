@@ -1,31 +1,28 @@
 import { useI18n, useLocation, useRemoveWindowGoogle } from '@hooks';
-import { Address } from '@ilovemochi/enums';
-import { setLocationCookieStart } from '@redux/user/user.actions';
-import { GeocoderResult } from '@typescript';
 import { formatGeoCodeResult, getStreetFromPlaceObject } from '@utils/helper-functions';
 import { FC, useCallback } from 'react';
 import { useForm } from 'react-hook-form';
 import { MdArrowForward, MdLocationOn } from 'react-icons/md';
-import { useDispatch } from 'react-redux';
 
 import { View } from '../../../../elements';
 import { theme } from '../../../../styles/theme';
 import SearchLocationInput from '../../../shared/form/search-location-input';
 import { AddressTextField, SubButton } from '../header.styles';
 
+export type GeocoderResult = google.maps.GeocoderResult;
+
 const AddressInput: FC = () => {
-  const dispatch = useDispatch();
   const { t } = useI18n();
   const [locationState, setLocationState] = useLocation();
 
   const { handleSubmit, errors, setValue } = useForm({
     defaultValues: {
-      [Address.Street]: '',
+      street: '',
     },
   });
 
   const handleChange = useCallback((payload: GeocoderResult) => {
-    setValue(Address.Street, getStreetFromPlaceObject(payload));
+    setValue('street', getStreetFromPlaceObject(payload));
     setLocationState(formatGeoCodeResult(payload));
   }, []);
 
@@ -34,12 +31,7 @@ const AddressInput: FC = () => {
   const onSubmit = () => {
     if (!locationState.lat || !locationState.lng) return;
 
-    dispatch(
-      setLocationCookieStart({
-        lat: String(locationState.lat ? locationState.lat : ''),
-        lng: String(locationState.lng ? locationState.lng : ''),
-      })
-    );
+    alert('success!');
   };
 
   return (

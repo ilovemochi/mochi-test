@@ -1,23 +1,135 @@
 import { getProductsImageUrl } from '@api';
-import { Exceptions } from '@constants/validation-location';
-import {
-  Address,
-  Breakpoints,
-  Location,
-  Product,
-  ProductStore,
-  Store,
-  User,
-} from '@ilovemochi/enums';
-import { toLatLng } from '@ilovemochi/logic';
-import { IGenericObject, IProduct, IProductImage, IProductStore } from '@ilovemochi/types';
+export const Breakpoints = {
+  forPhoneOnly: 599,
+  forTabletPortraitUp: 600,
+  forTabletLandscapeUp: 900,
+  forDesktopUp: 1200,
+  forBigDesktopUp: 1800,
+};
+export enum Store {
+  PaymentType = 'paymentType',
+  Id = 'id',
+  MinimumAge = 'minimumAge',
+  Name = 'name',
+  Categories = 'categories',
+  OpeningHours = 'openingHours',
+  DeliveryPolicy = 'deliveryPolicy',
+  Location = 'location',
+  Type = 'type',
+  SubType = 'subType',
+  Currency = 'currency',
+}
+
+export enum User {
+  Id = 'id',
+  Name = 'name',
+  BirthDate = 'birthDate',
+  Email = 'email',
+  Gender = 'gender',
+  Location = 'location',
+  Password = 'password',
+  Phone = 'phone',
+  Roles = 'roles',
+  PaymentProviders = 'paymentProviders',
+  WhatsApp = 'whatsApp',
+  NIF = 'nif',
+  PasswordConfirmation = 'passwordConfirmation',
+  ResetPasswordToken = 'resetPasswordToken',
+  ResetPasswordExpires = 'resetPasswordExpires',
+  CreatedAt = 'createdAt',
+  UpdatedAt = 'updatedAt',
+}
+
+export enum Address {
+  City = 'city',
+  Zip = 'zip',
+  Floor = 'floor',
+  Street = 'street',
+  Country = 'country',
+}
+export enum Cities {
+  Lisbon = 'lisbon',
+  Luanda = 'luanda',
+}
+export enum Countries {
+  Portugal = 'portugal',
+  Angola = 'angola',
+}
+export enum Location {
+  Coordinates = 'coordinates',
+  Address = 'address',
+  Type = 'type',
+  Lat = 'lat',
+  Lng = 'lng',
+}
+
+export enum ProductStore {
+  StoreId = 'storeId',
+  DiscountPrice = 'discountPrice',
+  Price = 'price',
+  Available = 'available',
+  Currency = 'currency',
+}
+export enum Product {
+  Container = 'container',
+  FullName = 'fullName',
+  Category = 'category',
+  SubCategory = 'subCategory',
+  Type = 'type',
+  Name = 'name',
+  Size = 'size',
+  CreatedAt = 'createdAt',
+  Id = 'id',
+  Image = 'image',
+  Stores = 'stores',
+  Tags = 'tags',
+}
+
+export interface IProduct {
+  [Product.Id]: string;
+  [Product.FullName]: string;
+  [Product.Name]: string;
+  [Product.Container]: IProductsContainer;
+  [Product.Category]: IProductsCategory;
+  [Product.SubCategory]: IProductsSubCategory;
+  [Product.Type]: string;
+  [Product.Tags]: ReadonlyArray<string>;
+  [Product.Image]: IProductImage;
+  [Product.Size]: IProductSize;
+  [Product.Stores]: ReadonlyArray<IProductStore>;
+  [Product.CreatedAt]: Date;
+}
+export enum Images {
+  Small = 'small',
+  Medium = 'medium',
+}
+
+export interface IProductImage {
+  [Images.Small]: string;
+  [Images.Medium]: string;
+}
+export interface IProductStore {
+  [ProductStore.StoreId]: string;
+  [ProductStore.Price]: number;
+  [ProductStore.Currency]: Currency;
+  [ProductStore.DiscountPrice]: number | null;
+  [ProductStore.Available]: boolean;
+}
+
 import DineroFactory, { Currency } from 'dinero.js';
 import R from 'ramda';
 import { createElement as createEl } from 'react';
 import { css, FlattenSimpleInterpolation } from 'styled-components';
 
 import Route from '../../constants/routes';
-import { GeocoderResult } from '../../typescript';
+import {
+  GeocoderResult,
+  IGenericObject,
+  IProductsCategory,
+  IProductsContainer,
+  IProductSize,
+  IProductsSubCategory,
+} from '../../typescript';
 import {
   Capitalize,
   ConvertDineroToObject,
@@ -107,9 +219,6 @@ export const formatMoney = R.invoker(1, 'toFormat')('$0,0.00');
 const getUser = R.converge(R.propOr, [R.always(''), R.identity]);
 const getUserAddress = (property: string) =>
   R.pathOr('', [Store.Location, Location.Address, property]);
-
-const getUserAddressZip = (zipPath: string) =>
-  R.pathOr(Exceptions.PostalCode, [Store.Location, Location.Address, zipPath]);
 
 export const getUserName = getUser(User.Name);
 export const getUserEmail = getUser(User.Email);
@@ -286,11 +395,6 @@ export function hasDuplicates(array: Array<string>): boolean {
 }
 
 export const toInt = R.curryN(2, (radix: number, x: string) => parseInt(x, radix));
-
-export const getLatLngCoordinates = R.o(
-  toLatLng,
-  R.pathOr<[number, number]>([0, 0], ['location', Location.Coordinates])
-);
 
 export const getReactHookFormError: GetReactHookFormError = ({ name, errors }) =>
   R.path([name, 'message'], errors);

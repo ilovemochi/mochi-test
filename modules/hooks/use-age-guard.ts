@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 import Route from '../constants/routes';
 import { getUserBirthDate } from '../utils/helper-functions';
 import useIsMounted from './use-is-mounted';
-import useUserState from './use-user-state';
 
 const AGE_GUARD_DEFAULT_VALUE = {
   verifyAge: false,
@@ -15,7 +14,7 @@ const AGE_GUARD_DEFAULT_VALUE = {
 const useAgeGuard = (minimumAge: number | null = null) => {
   const [age, setAge] = useState(0);
   const isMounted = useIsMounted();
-  const { user, error, loading } = useUserState();
+  const { user, error, loading } = { user: { name: 'name' }, error: {}, loading: true };
   const router = useRouter();
 
   // Predicates

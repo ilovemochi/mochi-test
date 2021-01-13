@@ -1,3 +1,4 @@
+import { useI18n } from '@hooks';
 import { noop } from '@utils/helper-functions';
 import { FC, useEffect, useRef, useState } from 'react';
 import { FaEye, FaEyeSlash, FaLock } from 'react-icons/fa';
@@ -23,6 +24,7 @@ const TextField: FC<TextFieldProps> = ({
   autofocusOnEnable = false,
   ...otherProps
 }) => {
+  const { t } = useI18n();
   const isPasswordField = type === 'password';
   const [hideText, setHideText] = useState(true);
   const inputRef = useRef<null | HTMLInputElement>(null);
@@ -46,7 +48,7 @@ const TextField: FC<TextFieldProps> = ({
   return (
     <InputWrapper my="L" width={width || '100%'} minWidth="25rem" position="relative" p={padding}>
       <Label label={label} labelLess={labelLess} center={center} required={required} />
-      {isPasswordField && <FaLock className="lock" role="img" aria-label="password" />}
+      {isPasswordField && <FaLock className="lock" role="img" aria-label={label} />}
       <InputField
         center={center ? 'center' : 'inherit'}
         variant={noBorder ? 'enhanced' : 'normal'}
@@ -69,14 +71,14 @@ const TextField: FC<TextFieldProps> = ({
               className="eye"
               onClick={toggleHideText}
               role="button"
-              aria-label="show password"
+              aria-label={t('common.ariaLabel.showPassword')}
             />
           ) : (
             <FaEyeSlash
               className="eye"
               onClick={toggleHideText}
               role="button"
-              aria-label="hide password"
+              aria-label={t('common.ariaLabel.hidePassword')}
             />
           )}
         </>

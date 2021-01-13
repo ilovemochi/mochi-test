@@ -1,4 +1,3 @@
-import { maxWidth, minWidth } from '@utils/helper-functions';
 import styled, { css } from 'styled-components';
 
 import { Text, View } from '../../../elements';
@@ -12,14 +11,6 @@ export const Container = styled(View)`
   background-color: ${theme.color.darkAccent};
   background-size: 100%;
   background-repeat: no-repeat;
-
-  ${maxWidth.forDesktopUp(css`
-    background-position: 100px 70px;
-  `)}
-
-  ${maxWidth.forTabletLandscapeUp(css`
-    background-image: none;
-  `)}
 `;
 
 export const Button = styled.button<{ transparent?: boolean }>`
@@ -37,11 +28,6 @@ export const Button = styled.button<{ transparent?: boolean }>`
 
   background-color: ${props => (props.transparent ? 'transparent' : theme.color.black)};
   color: ${props => (props.transparent ? theme.color.black : theme.color.white)};
-
-  ${maxWidth.forTabletPortraitUp(css`
-    min-width: 4rem;
-    font-size: 1rem;
-  `)}
 `;
 
 export const AddressTextField = styled.form<{ addressIsValid?: boolean | null }>`
@@ -53,11 +39,6 @@ export const AddressTextField = styled.form<{ addressIsValid?: boolean | null }>
   display: flex;
   flex-direction: row;
   align-items: center;
-
-  ${maxWidth.forTabletLandscapeUp(css`
-    width: 100%;
-    margin: 0 auto;
-  `)}
 `;
 
 export const SubButton = styled.button`
@@ -86,32 +67,14 @@ export const MainContent = styled.div`
   width: 100%;
   padding: 0 2rem;
   ${FlexStyles({ flex: 1, direction: 'column', justifyContent: 'center', alignItems: 'center' })}
-
-  ${minWidth.forTabletPortraitUp(css`
-    padding: 0 0;
-  `)}
 `;
 
 export const SectionTitle = styled(Text)`
   ${DefaultTitlesStyles}
-
-  ${minWidth.forTabletPortraitUp(css`
-    font-size: ${theme.font.h3};
-  `)}
-
-  ${maxWidth.forPhoneOnly(css`
-    font-size: ${theme.font.h3};
-    line-height: 3.5rem;
-  `)}
 `;
 
 export const DescriptionText = styled(Text)`
   ${DefaultTitlesStyles};
-
-  ${maxWidth.forPhoneOnly(css`
-    font-size: ${theme.font.h5};
-    line-height: 3.5rem;
-  `)}
 `;
 
 export const NavBarWrapper = styled.div`
@@ -128,15 +91,6 @@ export const MenuOptionsWrapper = styled.div`
 export const ContentSVGWrapper = styled.div`
   height: 12rem;
   width: 20rem;
-  ${minWidth.forTabletPortraitUp(css`
-    height: 30rem;
-    width: 40rem;
-  `)};
-
-  ${minWidth.forDesktopUp(css`
-    height: 40rem;
-    width: 50rem;
-  `)};
 `;
 
 export const RequestLocationWrapper = styled.div`
@@ -147,12 +101,6 @@ export const RequestLocationWrapper = styled.div`
 
 export const HeaderSVGWrapper = styled.div`
   display: none;
-  ${minWidth.forTabletLandscapeUp(css`
-    display: block;
-    width: 100rem;
-    height: auto;
-    margin-left: 5rem;
-  `)};
 `;
 
 export const MochiWordWrapper = styled.div`
@@ -162,12 +110,6 @@ export const MochiWordWrapper = styled.div`
     width: 100%;
     height: 3.5rem;
   }
-`;
-
-export const MenuWrapper = styled(View)`
-  ${maxWidth.forTabletLandscapeUp(css`
-    display: none;
-  `)}
 `;
 
 export const LanguageWrapper = styled.div`

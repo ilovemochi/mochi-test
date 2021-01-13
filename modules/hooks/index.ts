@@ -1,5 +1,4 @@
 export * from './use-i18n';
-export { default as useUserState } from './use-user-state';
 export { default as useClickOutsideListenerRef } from './use-click-outside-listener-ref';
 export { default as useIsMounted } from './use-is-mounted';
 export { default as usePrevious } from './use-previous';

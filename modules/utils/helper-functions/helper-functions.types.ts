@@ -1,10 +1,6 @@
 import { NestDataObject } from 'react-hook-form';
 import { FlattenSimpleInterpolation } from 'styled-components';
 
-export type TGetFirstWord = (arg: string) => string;
-
-export type TMapIndexed = (fn: Function) => (arg: any) => any;
-
 export type TToggleState = (fn: Function) => () => void;
 
 export type IAddStyles = (

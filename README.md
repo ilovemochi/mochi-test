@@ -20,8 +20,9 @@ Welcome to your aptitude test
 <p>
 This test aims to measure the candidate's technical capabilities and find out if they are in accordance with the developer profile that Mochi is looking for.
 
-In this project there is a component in **mochi-test\components\shared\form\search-location-input**, your objective is to test this component and and your hooks.
-
+Your object is to test the component in the following paths 
+- **mochi-test\components\shared\form\search-location-input**
+- **modules\hooks** (All the hooks)
 </p>
 
 <br>

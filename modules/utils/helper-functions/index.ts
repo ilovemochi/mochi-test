@@ -9,9 +9,7 @@ import {
   LoadScript,
   MediaQueryMap,
   MediaQueryMapValues,
-  TGetFirstWord,
   TIsNotNil,
-  TMapIndexed,
   TNoop,
   ToUpperCase,
   TToggleState,
@@ -24,13 +22,6 @@ export const Breakpoints = {
   forDesktopUp: 1200,
   forBigDesktopUp: 1800,
 };
-
-export const getFirstWord = R.compose<string, string[], string | undefined>(
-  R.head,
-  R.split(' ')
-) as TGetFirstWord;
-
-export const mapIndexed = R.addIndex(R.map) as TMapIndexed;
 
 export const toggleState: TToggleState = fn => () => fn((prevState: boolean) => !prevState);
 
@@ -77,8 +68,6 @@ export const mapProps = R.flip(R.useWith(R.o, [createElement, R.identity]));
 export const showNothing = R.always(null);
 
 export const flippedMap = R.flip(R.map);
-
-export const isDevelopment = !!+process.env.NEXT_PUBLIC_IS_DEVELOPMENT!;
 
 export const isBoolean = R.is(Boolean);
 

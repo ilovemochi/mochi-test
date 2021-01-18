@@ -1,4 +1,3 @@
-import { IGenericObject } from '@ilovemochi/types';
 import { FC, HTMLAttributes } from 'react';
 import { css, FlattenSimpleInterpolation } from 'styled-components';
 
@@ -93,7 +92,7 @@ const Text: FC<Props & HTMLAttributes<HTMLParagraphElement | HTMLLabelElement>> 
   middle,
   ...otherProps
 }) => {
-  const StylesObject = {} as IGenericObject<FlattenSimpleInterpolation>;
+  const StylesObject = {} as Record<string, FlattenSimpleInterpolation>;
 
   if (uppercase)
     StylesObject.uppercase = css`

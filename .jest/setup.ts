@@ -1,6 +1,5 @@
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import ReactModal from 'react-modal';
 
 jest.setTimeout(10000);
 
@@ -26,28 +25,6 @@ jest.mock('next/router', () => ({
     },
   }),
 }));
-
-jest.spyOn(ReactModal, 'setAppElement').mockImplementation(() => {});
-
-/**
- * @description Polyfill for match media - React Slick
- * @link https://github.com/akiran/react-slick/blob/master/test-setup.js
- */
-window.matchMedia =
-  window.matchMedia ||
-  function () {
-    return {
-      matches: false,
-      addListener: function () {},
-      removeListener: function () {},
-    };
-  };
-
-window.requestAnimationFrame =
-  window.requestAnimationFrame ||
-  function (callback) {
-    setTimeout(callback, 0);
-  };
 
 /**
  * @description Silence console.warn in jest

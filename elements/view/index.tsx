@@ -1,4 +1,3 @@
-import { IGenericObject } from '@ilovemochi/types';
 import { FC, HTMLAttributes, ReactNode, ReactText } from 'react';
 import { css, FlattenSimpleInterpolation } from 'styled-components';
 
@@ -45,7 +44,7 @@ const View: FC<Props & HTMLAttributes<HTMLDivElement>> = ({
   direction,
   ...otherProps
 }) => {
-  const StylesObject = {} as IGenericObject<FlattenSimpleInterpolation>;
+  const StylesObject = {} as Record<string, FlattenSimpleInterpolation>;
 
   if (minHeight)
     StylesObject.minHeight = css`

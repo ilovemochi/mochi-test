@@ -1,4 +1,3 @@
-import { IGenericObject } from '@ilovemochi/types';
 import { noop } from '@utils/helper-functions';
 import { equals } from 'ramda';
 import { FC, HTMLAttributes, useEffect, useRef, useState } from 'react';
@@ -41,7 +40,7 @@ const TextField: FC<Props & HTMLAttributes<HTMLInputElement>> = ({
 
   if (equals(type, 'password')) type = hideText ? 'password' : 'text';
 
-  const StylesObject = {} as IGenericObject<FlattenSimpleInterpolation>;
+  const StylesObject = {} as Record<string, FlattenSimpleInterpolation>;
 
   if (isPasswordField)
     StylesObject.isPassWordField = css`

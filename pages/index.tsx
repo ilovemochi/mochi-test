@@ -1,9 +1,5 @@
-import AddressInput from '@components/landing-page/landing-header/address-input';
+import AddressInput from '@components/address-input';
 
-const Home = () => {
- return (
-  <AddressInput />
- );
-};
+const Home = () => <AddressInput />;
 
 export default Home;

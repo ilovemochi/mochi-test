@@ -7,17 +7,12 @@
       },
       "alias": {
         "map": [
-          ["@design-system", "./modules/design-system"],
-          ["@elements", "./modules/elements"],
           ["@test-utils","./modules/test-utils.tsx"],
-          ["@api","./modules/api"],
           ["@hooks","./modules/hooks"],
           ["@constants", "./modules/constants"],
-          ["@redux","./modules/redux"],
           ["@typescript","./modules/typescript"],
           ["@utils", "./modules/utils"],
-          ["@components", "./components"],
-          ["@views", "./views"]
+          ["@components", "./components"]
         ],
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }

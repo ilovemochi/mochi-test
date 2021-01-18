@@ -1,5 +1,5 @@
 import DEFAULT_CONFIG from '@constants/config';
-import { useGeoCode, useGetPlacePredictions, useI18n } from '@hooks';
+import { useGeoCode, useGetPlacePredictions } from '@hooks';
 import { AutocompletePrediction, GeocoderResult } from '@typescript';
 import { getFormattedAddress, getReactHookFormError } from '@utils/helper-functions';
 import { head, o, pathOr } from 'ramda';
@@ -24,7 +24,6 @@ const SearchLocationInput: FC<SearchLocationInputProps> = ({
   noBorder = false,
   ...otherProps
 }) => {
-  const { t } = useI18n();
   const [query, setQuery] = useState(defaultValue);
   const [predictions, setPredictions] = useState<Array<AutocompletePrediction>>([]);
   const [placeId, setPlaceId] = useState('');
@@ -71,8 +70,8 @@ const SearchLocationInput: FC<SearchLocationInputProps> = ({
     <ReactFormFieldWrapper>
       <TextField
         noBorder={noBorder}
-        name={'street'}
-        label={t('common.field.street.label')}
+        name="street"
+        label="street"
         disabled={isDisabled}
         autoComplete="chrome-off"
         onChange={event => {
@@ -104,7 +103,7 @@ const SearchLocationInput: FC<SearchLocationInputProps> = ({
           ))}
         </PredictionsWrapper>
       ) : null}
-      {!!error && <FieldErrorMessage errors={errors} name='street' />}
+      {!!error && <FieldErrorMessage errors={errors} name="street" />}
     </ReactFormFieldWrapper>
   );
 };

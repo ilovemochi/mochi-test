@@ -35,13 +35,3 @@ export type TFlexStyles = (flexProps: {
   flex?: number | string;
   flexWrap?: TFlexWrap;
 }) => Array<string>;
-
-export interface IMargin {
-  margin?: string;
-  verticalMargin?: string;
-  horizontalMargin?: string;
-  marginRight?: string;
-  marginLeft?: string;
-  marginTop?: string;
-  marginBottom?: string;
-}

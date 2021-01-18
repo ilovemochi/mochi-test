@@ -31,7 +31,7 @@ Your object is to test the component in the following paths
 
 This project was developed with the following technologies:
 
-- [Next](https://reactjs.org/)
+- [Next](https://nextjs.org/)
 - [Ramda](https://ramdajs.com/)
 - [Typescript](https://www.typescriptlang.org/)
 - [styled-components](https://www.styled-components.com/)

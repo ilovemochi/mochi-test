@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { FlexStyles } from '../../../styles';
 
-export const ReactFormFieldWrapper = styled.div`
+const ReactFormFieldWrapper = styled.div`
   position: relative;
   ${FlexStyles({ direction: 'column', alignItems: 'center', justifyContent: 'space-around' })}
   p {
@@ -10,3 +10,5 @@ export const ReactFormFieldWrapper = styled.div`
     color: ${props => props.theme.color.red};
   }
 `;
+
+export default ReactFormFieldWrapper;

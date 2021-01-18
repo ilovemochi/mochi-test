@@ -9,7 +9,7 @@ import { v4 } from 'uuid';
 
 import TextField from '../../../../elements/text-field';
 import FieldErrorMessage from '../field-error-message';
-import { ReactFormFieldWrapper } from '../form.styles';
+import ReactFormFieldWrapper from '../form.styles';
 import { SearchLocationInputProps } from './search-location-input.types';
 import { PredictionButton, PredictionItem, PredictionsWrapper } from './styles';
 

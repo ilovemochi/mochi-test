@@ -34,8 +34,6 @@ This project was developed with the following technologies:
 - [Next](https://reactjs.org/)
 - [Ramda](https://ramdajs.com/)
 - [Typescript](https://www.typescriptlang.org/)
-- [Redux](https://redux.js.org/)
-- [Redux-Saga](https://redux-saga.js.org/)
 - [styled-components](https://www.styled-components.com/)
 - [React-Icons](https://react-icons.netlify.com/)
 - [VS Code][vc] and [ESLint][vceslint]

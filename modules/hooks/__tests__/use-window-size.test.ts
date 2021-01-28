@@ -16,20 +16,10 @@ describe('Test the window Size Hook', () => {
     const resizedValues = { width: 1200, height: 500 };
 
     act(() => {
-      Object.defineProperties(window, {
-        innerHeight: {
-          writable: true,
-          configurable: true,
-          value: resizedValues.height,
-        },
-        innerWidth: {
-          writable: true,
-          configurable: true,
-          value: resizedValues.width,
-        },
-      });
+      global.innerHeight = resizedValues.height;
+      global.innerWidth = resizedValues.width;
 
-      window.dispatchEvent(new Event('resize'));
+      global.dispatchEvent(new Event('resize'));
     });
 
     expect(result.current).toEqual(resizedValues);

@@ -1,4 +1,4 @@
-import { renderHook, act } from '@testing-library/react-hooks';
+import { renderHook } from '@testing-library/react-hooks';
 import { usePrevious } from './../index';
 
 describe(' Testing a usePrevious Hook ', () => {
@@ -6,10 +6,6 @@ describe(' Testing a usePrevious Hook ', () => {
     const values = [1, 2, 3, 4];
 
     const { result } = renderHook(() => usePrevious(values));
-
-    act(() => {
-      result.current;
-    });
 
     expect(result.current).toBeUndefined();
   });

@@ -3,11 +3,9 @@ import { useIsFirstRender } from './../index';
 
 describe('Test if it is a first render', () => {
   it('Is it a first render', () => {
-    const { result, rerender } = renderHook(useIsFirstRender);
+    const { result } = renderHook(useIsFirstRender);
 
-    act(() => {
-      result.current;
-    });
+   
 
     expect(result.current).toBe(true);
   });
@@ -15,9 +13,6 @@ describe('Test if it is a first render', () => {
   it('It is not a first render', () => {
     const { result, rerender } = renderHook(useIsFirstRender);
 
-    act(() => {
-      result.current;
-    });
 
     rerender(true);
 

@@ -32,6 +32,7 @@ const useClickOutsideListenerRef = (onClose: OnClose | noop) => {
       document.removeEventListener('keyup', escapeListener);
     };
   }, [clickListener, escapeListener]);
+
   return ref;
 };
 

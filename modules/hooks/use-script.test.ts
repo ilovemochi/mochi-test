@@ -9,7 +9,7 @@ const UseScriptProps = {
 };
 
 describe('useScriptHook hooks', () => {
-  it('it should not have an HTML script element', () => {
+  it('it should NOT have a script element before initialization', () => {
     expect(document.querySelectorAll('script').length).toBe(0);
   });
 
@@ -19,5 +19,18 @@ describe('useScriptHook hooks', () => {
 
     expect(document.querySelectorAll('script').length).toBe(1);
     expect(document.querySelectorAll('#' + UseScriptProps.id).length).toBe(1);
+  });
+
+  it('it should NOT have a script element after unmounting', () => {
+    const { unmount } = renderHook(() => useScript(UseScriptProps));
+    // expect(document.querySelectorAll('script').length).toBe(1);
+
+    expect(document.querySelectorAll('script').length).toBe(1);
+    expect(document.querySelectorAll('#' + UseScriptProps.id).length).toBe(1);
+
+    unmount();
+
+    expect(document.querySelectorAll('script').length).toBe(0);
+    expect(document.querySelectorAll('#' + UseScriptProps.id).length).toBe(0);
   });
 });
